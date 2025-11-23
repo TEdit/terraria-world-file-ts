@@ -2,27 +2,9 @@ import type BinaryReader from '../BinaryReader'
 import type BinarySaver from '../BinarySaver'
 import type { WorldProperties } from '../FileReader'
 import type { Section } from '../sections'
+import type { Chest, Item } from '../types'
 
-export type Item = {
-  stack: number
-  id: number
-  prefix: number
-}
-
-export type ItemSlot = Item | null
-
-export type Chest = {
-  position: {
-    x: number
-    y: number
-  }
-  name?: string
-  items?: ItemSlot[]
-}
-
-export type Chests = typeof ChestsData
-
-class ChestsData {
+export class ChestsData {
   public chests!: Chest[]
 }
 

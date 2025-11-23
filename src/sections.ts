@@ -4,6 +4,11 @@ import WorldTilesIO from './section/WorldTiles'
 import SignsIO from './section/Signs'
 import ChestsIO from './section/Chests'
 import NPCsIO from './section/NPCs'
+import FooterIO from './section/Footer'
+import CreativePowersIO from './section/CreativePowers'
+import BestiaryIO from './section/Bestiary'
+import TownManagerIO from './section/townManager'
+import WeightedPressurePlatesIO from './section/WeightedPressurePlates'
 
 import type BinaryReader from './BinaryReader'
 import type { WorldProperties } from './FileReader'
@@ -17,11 +22,11 @@ const sections = {
   signs: new SignsIO(),
   NPCs: new NPCsIO(),
   // tileEntities: new TileEntitiesIO(),
-  // weightedPressurePlates: new WeightedPressurePlatesIO(),
-  // townManager: new TownManagerIO(),
-  // bestiary: new BestiaryIO(),
-  // creativePowers: new CreativePowersIO(),
-  // footer: new FooterIO(),
+  weightedPressurePlates: new WeightedPressurePlatesIO(),
+  townManager: new TownManagerIO(),
+  bestiary: new BestiaryIO(),
+  creativePowers: new CreativePowersIO(),
+  footer: new FooterIO(),
 } as const
 
 export namespace Section {
@@ -31,7 +36,7 @@ export namespace Section {
   }
 
   export type Name = keyof typeof sections
-  export type Data<T extends Name> = ReturnType<(typeof sections)[T]['parse']>
+  export type Data<T extends Name> = (typeof sections)[T] extends IODefinition<infer R> ? R : any
   export type DataMap = { [K in Name]: Data<K> }
   export type IO<T extends Name = Name> = IODefinition<Data<T>>
 }

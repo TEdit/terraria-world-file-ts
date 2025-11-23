@@ -3,9 +3,7 @@ import type { WorldProperties } from '../FileReader'
 import type BinarySaver from '../BinarySaver'
 import type { Section } from '../sections'
 
-export type FileFormatHeader = typeof FileFormatHeaderData
-
-class FileFormatHeaderData {
+export class FileFormatHeaderData {
   public version!: number
   public magicNumber!: 'relogic'
   public fileType!: 2

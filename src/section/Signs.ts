@@ -2,18 +2,9 @@ import type BinaryReader from '../BinaryReader'
 import type { Section } from '../sections'
 import type BinarySaver from '../BinarySaver'
 import type { WorldProperties } from '../FileReader'
+import type { Sign } from '../types'
 
-export type Sign = {
-  text: string
-  position: {
-    x: number
-    y: number
-  }
-}
-
-export type Signs = typeof SignsData
-
-class SignsData {
+export class SignsData {
   public signs!: Sign[]
 }
 

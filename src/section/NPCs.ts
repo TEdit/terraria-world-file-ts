@@ -1,30 +1,10 @@
 import type BinaryReader from '../BinaryReader'
 import BinarySaver from '../BinarySaver'
 import type { WorldProperties } from '../FileReader'
-import { Section } from '../sections'
+import type { Section } from '../sections'
+import type { Pillar, TownNPC } from '../types'
 
-export interface Pillar {
-  id: number
-  position: {
-    x: number
-    y: number
-  }
-}
-
-export interface TownNPC extends Pillar {
-  name: string
-  homeless: boolean
-  homePosition: {
-    x: number
-    y: number
-  }
-  variationIndex?: number
-  shimmered?: boolean
-}
-
-export type NPCs = NPCsData
-
-class NPCsData {
+export class NPCsData {
   townNPCs!: TownNPC[]
   pillars!: Pillar[]
 }

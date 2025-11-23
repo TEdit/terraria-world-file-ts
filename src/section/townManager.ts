@@ -1,37 +1,41 @@
 import type BinaryReader from '../BinaryReader'
+import type { TownRoom } from '../types'
+import type { Section } from '../sections'
+import type BinarySaver from '../BinarySaver'
+import type { WorldProperties } from '../FileReader'
 
-export type TownRoom = {
-  NPCId: number
-  position: {
-    x: number
-    y: number
+export class TownManagerData {
+  public rooms!: TownRoom[]
+}
+
+export default class TownManagerIO implements Section.IODefinition<TownManagerData> {
+  public parse(reader: BinaryReader, world: WorldProperties): TownManagerData {
+    const data = new TownManagerData()
+
+    data.rooms = reader.readArray(reader.readInt32(), () => this.parseTownRoom(reader))
+
+    return data
+  }
+
+  private parseTownRoom(reader: BinaryReader): TownRoom {
+    return {
+      NPCId: reader.readInt32(),
+      position: {
+        x: reader.readInt32(),
+        y: reader.readInt32(),
+      },
+    }
+  }
+
+  public save(saver: BinarySaver, data: TownManagerData, world: WorldProperties): void {
+    saver.saveArray(
+      data.rooms,
+      (length) => saver.saveInt32(length),
+      (room) => {
+        saver.saveInt32(room.NPCId)
+        saver.saveInt32(room.position.x)
+        saver.saveInt32(room.position.y)
+      },
+    )
   }
 }
-export default function parseTownManager(reader: BinaryReader) {
-  return reader.readArray(reader.readInt32(), () => parseTownRoom(reader))
-}
-
-function parseTownRoom(reader: BinaryReader): TownRoom {
-  return {
-    NPCId: reader.readInt32(),
-    position: {
-      x: reader.readInt32(),
-      y: reader.readInt32(),
-    },
-  }
-}
-
-// saveTownManager() {
-//   const data = this.world.rooms
-//
-//   this.saver.saveInt32(data.length)
-//
-//   data.forEach((room) => {
-//     this.saver.saveInt32(room.NPCId)
-//     this.saver.saveInt32(room.position.x)
-//     this.saver.saveInt32(room.position.y)
-//   })
-//
-//   return this.saver.getPosition()
-// }
-//

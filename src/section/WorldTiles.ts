@@ -2,47 +2,9 @@ import type { WorldProperties } from '../FileReader'
 import type BinaryReader from '../BinaryReader'
 import type BinarySaver from '../BinarySaver'
 import type { Section } from '../sections'
+import { Liquid, Slope, Tile } from '../types'
 
-export type Tile = {
-  blockId?: number
-  frameX?: number
-  frameY?: number
-  blockColor?: number
-  wallId?: number
-  wallColor?: number
-  liquidAmount?: number
-  liquidType?: Liquid
-  wireRed?: boolean
-  wireBlue?: boolean
-  wireGreen?: boolean
-  slope?: Slope
-  actuator?: boolean
-  actuated?: boolean
-  wireYellow?: boolean
-  invisibleBlock?: boolean
-  invisibleWall?: boolean
-  fullBrightBlock?: boolean
-  fullBrightWall?: boolean
-}
-
-export enum Slope {
-  Half = 1,
-  TR,
-  TL,
-  BR,
-  BL,
-}
-
-export enum Liquid {
-  Water = 1,
-  Lava,
-  Honey,
-  Shimmer,
-}
-
-export type WorldTiles = typeof WorldTilesData
-
-class WorldTilesData {
+export class WorldTilesData {
   public tiles!: Tile[][]
 }
 

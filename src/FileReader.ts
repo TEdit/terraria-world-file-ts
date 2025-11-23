@@ -18,6 +18,8 @@ export type WorldProperties = {
   importants: boolean[]
   height: number
   width: number
+  mapName: string
+  worldId: number
 }
 
 type SelectedDataMap<T extends Section.Name[]> = { [K in T[number]]: Section.Data<K> }
@@ -101,13 +103,19 @@ export default class FileReader {
       this.reader.skipBytes(12)
       data.pointers = [0, ...this.reader.readArray(this.reader.readInt16(), () => this.reader.readInt32())]
       data.importants = this.reader.readBits(this.reader.readInt16())
+      data.mapName = this.reader.readString()
       this.reader.readString()
-      this.reader.readString()
-      this.reader.skipBytes(44)
+      this.reader.skipBytes(24)
+      data.worldId = this.reader.readInt32()
+      this.reader.skipBytes(16)
       data.height = this.reader.readInt32()
       data.width = this.reader.readInt32()
       this.reader.jumpTo(0)
     } catch (e) {
+      throw new TerrariaWorldFileError('Invalid file')
+    }
+
+    if (![8400, 6400, 4200].includes(data.width) || ![2400, 1800, 1200].includes(data.height)) {
       throw new TerrariaWorldFileError('Invalid file')
     }
 

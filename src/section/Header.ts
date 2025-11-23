@@ -2,17 +2,9 @@ import type BinaryReader from '../BinaryReader'
 import type { WorldProperties } from '../FileReader'
 import type BinarySaver from '../BinarySaver'
 import type { Section } from '../sections'
+import type { GameMode } from '../types'
 
-export enum GameMode {
-  NormalMode,
-  ExpertMode,
-  MasterMode,
-  CreativeMode,
-}
-
-export type Header = typeof HeaderData
-
-class HeaderData {
+export class HeaderData {
   public mapName = ''
   public seedText = ''
   public worldGeneratorVersion = new Uint8Array(8)
