@@ -1,5 +1,5 @@
 import type BinaryReader from '../BinaryReader'
-import type { Item, ItemSlot } from './chests'
+import type { Item, ItemSlot } from './Chests'
 
 export interface TileEntity {
   type: TileEntityType
@@ -180,3 +180,95 @@ function parseItem(reader: BinaryReader): Item {
     stack: reader.readInt16(),
   }
 }
+
+//
+// saveTileEntities() {
+//   const data = this.world.tileEntities
+//
+//   this.saver.saveInt32(data.length)
+//
+//   data.forEach((tileEntity) => {
+//     if (tileEntity.targetDummy) this.saver.saveUInt8(0)
+//     else if (tileEntity.itemFrame) this.saver.saveUInt8(1)
+//     else if (tileEntity.logicSensor) this.saver.saveUInt8(2)
+//     else if (tileEntity.displayDoll) this.saver.saveUInt8(3)
+//     else if (tileEntity.weaponsRack) this.saver.saveUInt8(4)
+//     else if (tileEntity.hatRack) this.saver.saveUInt8(5)
+//     else if (tileEntity.foodPlatter) this.saver.saveUInt8(6)
+//     else if (tileEntity.teleportationPylon) this.saver.saveUInt8(7)
+//
+//     this.saver.saveInt32(tileEntity.id)
+//     this.saver.saveInt16(tileEntity.position.x)
+//     this.saver.saveInt16(tileEntity.position.y)
+//
+//     if (tileEntity.targetDummy) {
+//       this.saver.saveInt16(tileEntity.targetDummy.npc)
+//     } else if (tileEntity.itemFrame) {
+//       this.saver.saveInt16(tileEntity.itemFrame.itemId)
+//       this.saver.saveUInt8(tileEntity.itemFrame.prefix)
+//       this.saver.saveInt16(tileEntity.itemFrame.stack)
+//     } else if (tileEntity.logicSensor) {
+//       this.saver.saveUInt8(tileEntity.logicSensor.logicCheck)
+//       this.saver.saveBoolean(tileEntity.logicSensor.on)
+//     } else if (tileEntity.displayDoll) {
+//       let itemsBits = [],
+//         dyesBits = []
+//
+//       if (tileEntity.displayDoll.items)
+//         for (let i = 0; i < 8; i++) itemsBits[i] = tileEntity.displayDoll.items[i] ? true : false
+//       this.saver.saveBitsByte(itemsBits)
+//
+//       if (tileEntity.displayDoll.dyes)
+//         for (let i = 0; i < 8; i++) dyesBits[i] = tileEntity.displayDoll.dyes[i] ? true : false
+//       this.saver.saveBitsByte(dyesBits)
+//
+//       for (let j = 0; j < 8; j++)
+//         if (itemsBits[j]) {
+//           this.saver.saveInt16(tileEntity.displayDoll.items[j].itemId)
+//           this.saver.saveUInt8(tileEntity.displayDoll.items[j].prefix)
+//           this.saver.saveInt16(tileEntity.displayDoll.items[j].stack)
+//         }
+//
+//       for (let j = 0; j < 8; j++)
+//         if (dyesBits[j]) {
+//           this.saver.saveInt16(tileEntity.displayDoll.dyes[j].itemId)
+//           this.saver.saveUInt8(tileEntity.displayDoll.dyes[j].prefix)
+//           this.saver.saveInt16(tileEntity.displayDoll.dyes[j].stack)
+//         }
+//     } else if (tileEntity.weaponsRack) {
+//       this.saver.saveInt16(tileEntity.weaponsRack.itemId)
+//       this.saver.saveUInt8(tileEntity.weaponsRack.prefix)
+//       this.saver.saveInt16(tileEntity.weaponsRack.stack)
+//     } else if (tileEntity.hatRack) {
+//       let itemsBits = [],
+//         dyesBits = []
+//
+//       if (tileEntity.hatRack.items)
+//         for (let i = 0; i < 2; i++) itemsBits[i] = tileEntity.hatRack.items[i] ? true : false
+//
+//       if (tileEntity.hatRack.dyes) for (let i = 0; i < 2; i++) dyesBits[i] = tileEntity.hatRack.dyes[i] ? true : false
+//
+//       this.saver.saveBitsByte([...itemsBits, ...dyesBits])
+//
+//       for (let j = 0; j < 2; j++)
+//         if (itemsBits[j]) {
+//           this.saver.saveInt16(tileEntity.hatRack.items[j].itemId)
+//           this.saver.saveUInt8(tileEntity.hatRack.items[j].prefix)
+//           this.saver.saveInt16(tileEntity.hatRack.items[j].stack)
+//         }
+//
+//       for (let j = 0; j < 2; j++)
+//         if (dyesBits[j]) {
+//           this.saver.saveInt16(tileEntity.hatRack.dyes[j].itemId)
+//           this.saver.saveUInt8(tileEntity.hatRack.dyes[j].prefix)
+//           this.saver.saveInt16(tileEntity.hatRack.dyes[j].stack)
+//         }
+//     } else if (tileEntity.foodPlatter) {
+//       this.saver.saveInt16(tileEntity.foodPlatter.itemId)
+//       this.saver.saveUInt8(tileEntity.foodPlatter.prefix)
+//       this.saver.saveInt16(tileEntity.foodPlatter.stack)
+//     }
+//   })
+//
+//   return this.saver.getPosition()
+// }

@@ -1,6 +1,9 @@
 import FileFormatHeaderIO from './section/FileFormatHeader'
 import HeaderIO from './section/Header'
 import WorldTilesIO from './section/WorldTiles'
+import SignsIO from './section/Signs'
+import ChestsIO from './section/Chests'
+import NPCsIO from './section/NPCs'
 
 import type BinaryReader from './BinaryReader'
 import type { WorldProperties } from './FileReader'
@@ -10,18 +13,21 @@ const sections = {
   fileFormatHeader: new FileFormatHeaderIO(),
   header: new HeaderIO(),
   worldTiles: new WorldTilesIO(),
+  signs: new SignsIO(),
+  chests: new ChestsIO(),
+  NPCs: new NPCsIO(),
 } as const
 
 export namespace Section {
-  export type Name = keyof typeof sections
-  export type Data<T extends Name> = (typeof sections)[T]['data']
-  export type DataMap = { [K in Name]: Data<K> }
-
-  export interface IO<T extends Name = any> {
-    data: Data<T>
-    parse(reader: BinaryReader, world: WorldProperties): this
-    save(saver: BinarySaver, world: WorldProperties): number
+  export interface IODefinition<T> {
+    parse(reader: BinaryReader, world: WorldProperties): T
+    save(saver: BinarySaver, data: T, world: WorldProperties): void
   }
+
+  export type Name = keyof typeof sections
+  export type Data<T extends Name> = ReturnType<(typeof sections)[T]['parse']>
+  export type DataMap = { [K in Name]: Data<K> }
+  export type IO<T extends Name = Name> = IODefinition<Data<T>>
 }
 
 export default sections as { [K in Section.Name]: Section.IO<K> }

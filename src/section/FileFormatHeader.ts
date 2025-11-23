@@ -15,33 +15,29 @@ class FileFormatHeaderData {
   public importants!: boolean[]
 }
 
-export default class FileFormatHeaderIO implements Section.IO {
-  public data!: FileFormatHeaderData
+export default class FileFormatHeaderIO implements Section.IODefinition<FileFormatHeaderData> {
+  public parse(reader: BinaryReader): FileFormatHeaderData {
+    const data = new FileFormatHeaderData()
 
-  public parse(reader: BinaryReader): this {
-    this.data = new FileFormatHeaderData()
+    data.version = reader.readInt32()
+    data.magicNumber = reader.readString(7) as 'relogic'
+    data.fileType = reader.readUInt8() as 2
+    data.revision = reader.readUInt32()
+    data.favorite = Boolean(reader.readInt64())
+    data.pointers = reader.readArray(reader.readInt16(), () => reader.readInt32())
+    data.importants = reader.readBits(reader.readUInt16())
 
-    this.data.version = reader.readInt32()
-    this.data.magicNumber = reader.readString(7) as 'relogic'
-    this.data.fileType = reader.readUInt8() as 2
-    this.data.revision = reader.readUInt32()
-    this.data.favorite = Boolean(reader.readInt64())
-    this.data.pointers = reader.readArray(reader.readInt16(), () => reader.readInt32())
-    this.data.importants = reader.readBits(reader.readUInt16())
-
-    return this
+    return data
   }
 
-  public save(saver: BinarySaver, world: WorldProperties): number {
-    saver.saveInt32(this.data.version)
+  public save(saver: BinarySaver, data: FileFormatHeaderData, world: WorldProperties): void {
+    saver.saveInt32(data.version)
     saver.saveString('relogic', false)
-    saver.saveUInt8(this.data.fileType)
-    saver.saveUInt32(this.data.revision)
-    saver.saveInt64(BigInt(this.data.favorite))
+    saver.saveUInt8(data.fileType)
+    saver.saveUInt32(data.revision)
+    saver.saveInt64(BigInt(data.favorite))
     saver.skipBytes(world.version >= 225 ? 46 : 42)
-    saver.saveUInt16(this.data.importants.length)
-    saver.saveBits(this.data.importants)
-
-    return saver.getPosition()
+    saver.saveUInt16(data.importants.length)
+    saver.saveBits(data.importants)
   }
 }

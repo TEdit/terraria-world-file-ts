@@ -18,3 +18,18 @@ function parseWeightedPressurePlate(reader: BinaryReader): WeightedPressurePlate
     },
   }
 }
+
+//
+// saveWeightedPressurePlates() {
+//   const data = this.world.weightedPressurePlates
+//
+//   this.saver.saveInt32(data.length)
+//
+//   data.forEach((pressurePlate) => {
+//     this.saver.saveInt32(pressurePlate.position.x)
+//     this.saver.saveInt32(pressurePlate.position.y)
+//   })
+//
+//   return this.saver.getPosition()
+// }
+//

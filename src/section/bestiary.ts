@@ -12,3 +12,24 @@ export default function parseBestiary(reader: BinaryReader): Bestiary {
     NPCChats: reader.readArray(reader.readInt32(), () => reader.readString()),
   }
 }
+
+// saveBestiary() {
+//   const data = this.world.bestiary
+//
+//   data.NPCKills = Object.entries(data.NPCKills)
+//
+//   this.saver.saveInt32(data.NPCKills.length)
+//   for (let i = 0; i < data.NPCKills.length; i++) {
+//     this.saver.saveString(data.NPCKills[i][0])
+//     this.saver.saveInt32(data.NPCKills[i][1])
+//   }
+//
+//   this.saver.saveInt32(data.NPCSights.length)
+//   for (let i = 0; i < data.NPCSights.length; i++) this.saver.saveString(data.NPCSights[i])
+//
+//   this.saver.saveInt32(data.NPCChats.length)
+//   for (let i = 0; i < data.NPCChats.length; i++) this.saver.saveString(data.NPCChats[i])
+//
+//   return this.saver.getPosition()
+// }
+//

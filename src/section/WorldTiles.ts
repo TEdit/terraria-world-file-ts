@@ -1,7 +1,7 @@
 import type { WorldProperties } from '../FileReader'
 import type BinaryReader from '../BinaryReader'
 import type BinarySaver from '../BinarySaver'
-import { Section } from '../sections'
+import type { Section } from '../sections'
 
 export type Tile = {
   blockId?: number
@@ -46,41 +46,41 @@ class WorldTilesData {
   public tiles!: Tile[][]
 }
 
-export default class WorldTilesIO implements Section.IO {
-  public data!: WorldTilesData
+export default class WorldTilesIO implements Section.IODefinition<WorldTilesData> {
   private RLE!: number
 
-  public parse(reader: BinaryReader, world: WorldProperties): this {
-    this.data = new WorldTilesData()
+  public parse(reader: BinaryReader, world: WorldProperties): WorldTilesData {
+    const data = new WorldTilesData()
     this.RLE = 0
 
-    this.data.tiles = new Array(world.width)
+    data.tiles = new Array(world.width)
 
     for (let x = 0; x < world.width; x++) {
-      this.data.tiles[x] = new Array(world.height)
+      data.tiles[x] = new Array(world.height)
 
       for (let y = 0; y < world.height; y++) {
-        this.data.tiles[x][y] = this.parseTileData(reader, world)
+        data.tiles[x][y] = this.parseTileData(reader, world)
 
         while (this.RLE) {
-          this.data.tiles[x][y + 1] = this.data.tiles[x][y]
+          data.tiles[x][y + 1] = data.tiles[x][y]
           y++
           this.RLE--
         }
       }
     }
 
-    return this
+    return data
   }
-  public save(saver: BinarySaver, world: WorldProperties): number {
+
+  public save(saver: BinarySaver, data: WorldTilesData, world: WorldProperties): void {
     const worldTilesCount = world.width * world.height
 
     for (let x = 0; x < world.width; x++) {
       for (let y = 0; y < world.height; ) {
-        const tile = this.data.tiles[x][y]
+        const tile = data.tiles[x][y]
         this.RLE = 0
 
-        while (JSON.stringify(tile) === JSON.stringify(this.data.tiles[x][++y]) && y < world.height) {
+        while (JSON.stringify(tile) === JSON.stringify(data.tiles[x][++y]) && y < world.height) {
           this.RLE++
         }
 
@@ -95,8 +95,6 @@ export default class WorldTilesIO implements Section.IO {
         }
       }
     }
-
-    return saver.getPosition()
   }
 
   private parseTileData(reader: BinaryReader, world: WorldProperties): Tile {

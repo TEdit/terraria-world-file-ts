@@ -20,3 +20,18 @@ function parseTownRoom(reader: BinaryReader): TownRoom {
     },
   }
 }
+
+// saveTownManager() {
+//   const data = this.world.rooms
+//
+//   this.saver.saveInt32(data.length)
+//
+//   data.forEach((room) => {
+//     this.saver.saveInt32(room.NPCId)
+//     this.saver.saveInt32(room.position.x)
+//     this.saver.saveInt32(room.position.y)
+//   })
+//
+//   return this.saver.getPosition()
+// }
+//

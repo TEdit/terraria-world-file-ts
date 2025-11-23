@@ -48,3 +48,36 @@ function parseCreativePower(reader: BinaryReader): [string, number | boolean] {
       return ['unknown', 0]
   }
 }
+
+// saveCreativePowers() {
+//   const creativePowers = this.world.creativePowers
+//
+//   this.saver.saveBoolean(true)
+//   this.saver.saveInt16(0)
+//   this.saver.saveBoolean(creativePowers.freezeTime)
+//
+//   this.saver.saveBoolean(true)
+//   this.saver.saveInt16(8)
+//   this.saver.saveFloat32(creativePowers.modifyTimeRate)
+//
+//   this.saver.saveBoolean(true)
+//   this.saver.saveInt16(9)
+//   this.saver.saveBoolean(creativePowers.freezeRainPower)
+//
+//   this.saver.saveBoolean(true)
+//   this.saver.saveInt16(10)
+//   this.saver.saveBoolean(creativePowers.freezeWindDirectionAndStrength)
+//
+//   this.saver.saveBoolean(true)
+//   this.saver.saveInt16(12)
+//   this.saver.saveFloat32(creativePowers.difficultySliderPower)
+//
+//   this.saver.saveBoolean(true)
+//   this.saver.saveInt16(13)
+//   this.saver.saveBoolean(creativePowers.stopBiomeSpreadPower)
+//
+//   this.saver.saveBoolean(false)
+//
+//   return this.saver.getPosition()
+// }
+//

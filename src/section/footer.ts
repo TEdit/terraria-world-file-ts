@@ -7,3 +7,9 @@ export default function parseFooter(reader: BinaryReader) {
     signoff3: reader.readInt32(),
   }
 }
+
+// saveFooter() {
+//   this.saver.saveBoolean(true)
+//   this.saver.saveString(this.world.header.mapName)
+//   this.saver.saveInt32(this.world.header.worldId)
+// }

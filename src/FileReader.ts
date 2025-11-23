@@ -73,7 +73,7 @@ export default class FileReader {
       const sectionIndex = Object.keys(sections).indexOf(sectionName)
 
       this.reader.jumpTo(world.pointers[sectionIndex])
-      data[sectionName] = sectionIO.parse(this.reader, world).data
+      data[sectionName] = sectionIO.parse(this.reader, world)
 
       if (
         !this.ignorePointers &&

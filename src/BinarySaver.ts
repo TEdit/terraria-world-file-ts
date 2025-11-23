@@ -102,6 +102,11 @@ export default class BinarySaver {
     this.saveBytes(stringBytes)
   }
 
+  public saveArray<T>(array: T[], lengthSaver: (length: number) => void, valueSaver: (value: T) => void): void {
+    lengthSaver(array.length)
+    array.forEach((e: T) => valueSaver(e))
+  }
+
   public saveBits(bitValues: (number | boolean)[]): void {
     this.saveBytes(
       Array.from({ length: Math.ceil(bitValues.length / 8) }, (_, i) =>
