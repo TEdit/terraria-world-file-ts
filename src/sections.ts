@@ -7,7 +7,7 @@ import NPCsIO from './section/NPCs'
 import FooterIO from './section/Footer'
 import CreativePowersIO from './section/CreativePowers'
 import BestiaryIO from './section/Bestiary'
-import TownManagerIO from './section/townManager'
+import TownManagerIO from './section/TownManager'
 import WeightedPressurePlatesIO from './section/WeightedPressurePlates'
 
 import type BinaryReader from './BinaryReader'

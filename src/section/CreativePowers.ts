@@ -58,27 +58,27 @@ export default class CreativePowersIO implements Section.IODefinition<CreativePo
 
   save(saver: BinarySaver, data: CreativePowersData, world: WorldProperties): void {
     saver.saveBoolean(true)
-    saver.saveInt16(0)
+    saver.saveInt16(CreativePowerType.FreezeTime)
     saver.saveBoolean(data.freezeTime)
 
     saver.saveBoolean(true)
-    saver.saveInt16(8)
+    saver.saveInt16(CreativePowerType.ModifyTimeRate)
     saver.saveFloat32(data.modifyTimeRate)
 
     saver.saveBoolean(true)
-    saver.saveInt16(9)
+    saver.saveInt16(CreativePowerType.FreezeRainPower)
     saver.saveBoolean(data.freezeRainPower)
 
     saver.saveBoolean(true)
-    saver.saveInt16(10)
+    saver.saveInt16(CreativePowerType.FreezeWindDirectionAndStrength)
     saver.saveBoolean(data.freezeWindDirectionAndStrength)
 
     saver.saveBoolean(true)
-    saver.saveInt16(12)
+    saver.saveInt16(CreativePowerType.DifficultySliderPower)
     saver.saveFloat32(data.difficultySliderPower)
 
     saver.saveBoolean(true)
-    saver.saveInt16(13)
+    saver.saveInt16(CreativePowerType.StopBiomeSpreadPower)
     saver.saveBoolean(data.stopBiomeSpreadPower)
 
     saver.saveBoolean(false)
