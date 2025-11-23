@@ -6,11 +6,11 @@
 
 # Interface: Pillar
 
-Defined in: [src/parsers/NPCs.ts:4](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/NPCs.ts#L4)
+Defined in: [src/types.ts:69](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L69)
 
 ## Extended by
 
-- [`NPC`](NPC.md)
+- [`TownNPC`](TownNPC.md)
 
 ## Properties
 
@@ -18,20 +18,12 @@ Defined in: [src/parsers/NPCs.ts:4](https://github.com/cokolele/terraria-world-f
 
 > **id**: `number`
 
-Defined in: [src/parsers/NPCs.ts:5](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/NPCs.ts#L5)
+Defined in: [src/types.ts:70](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L70)
 
 ***
 
 ### position
 
-> **position**: `object`
+> **position**: [`Position`](../type-aliases/Position.md)
 
-Defined in: [src/parsers/NPCs.ts:6](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/NPCs.ts#L6)
-
-#### x
-
-> **x**: `number`
-
-#### y
-
-> **y**: `number`
+Defined in: [src/types.ts:71](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L71)

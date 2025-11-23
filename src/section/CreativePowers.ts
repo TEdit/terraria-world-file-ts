@@ -14,7 +14,7 @@ export class CreativePowersData {
 }
 
 export default class CreativePowersIO implements Section.IODefinition<CreativePowersData> {
-  public parse(reader: BinaryReader) {
+  public parse(reader: BinaryReader): CreativePowersData {
     const data = new CreativePowersData()
 
     const powers = reader.readArrayUntil(

@@ -15,12 +15,9 @@
 ## Enumerations
 
 - [CreativePowerType](enumerations/CreativePowerType.md)
-- [DisplayDollSlot](enumerations/DisplayDollSlot.md)
 - [GameMode](enumerations/GameMode.md)
-- [HatRackSlot](enumerations/HatRackSlot.md)
 - [Liquid](enumerations/Liquid.md)
 - [Slope](enumerations/Slope.md)
-- [TileEntityType](enumerations/TileEntityType.md)
 
 ## Classes
 
@@ -28,24 +25,26 @@
 
 ## Interfaces
 
-- [DisplayDoll](interfaces/DisplayDoll.md)
-- [FoodPlatter](interfaces/FoodPlatter.md)
-- [HatRack](interfaces/HatRack.md)
-- [ItemFrame](interfaces/ItemFrame.md)
-- [LogicSensor](interfaces/LogicSensor.md)
-- [NPC](interfaces/NPC.md)
+- [Bestiary](interfaces/Bestiary.md)
+- [Chests](interfaces/Chests.md)
+- [CreativePowers](interfaces/CreativePowers.md)
+- [FileFormatHeader](interfaces/FileFormatHeader.md)
+- [Footer](interfaces/Footer.md)
+- [Header](interfaces/Header.md)
+- [NPCs](interfaces/NPCs.md)
 - [Pillar](interfaces/Pillar.md)
-- [Pylon](interfaces/Pylon.md)
-- [TileEntity](interfaces/TileEntity.md)
-- [TrainingDummy](interfaces/TrainingDummy.md)
-- [WeaponsRack](interfaces/WeaponsRack.md)
+- [Signs](interfaces/Signs.md)
+- [TownManager](interfaces/TownManager.md)
+- [TownNPC](interfaces/TownNPC.md)
+- [WeightedPressurePlates](interfaces/WeightedPressurePlates.md)
+- [WorldTiles](interfaces/WorldTiles.md)
 
 ## Type Aliases
 
-- [Bestiary](type-aliases/Bestiary.md)
 - [Chest](type-aliases/Chest.md)
 - [Item](type-aliases/Item.md)
 - [ItemSlot](type-aliases/ItemSlot.md)
+- [Position](type-aliases/Position.md)
 - [Sign](type-aliases/Sign.md)
 - [Tile](type-aliases/Tile.md)
 - [TownRoom](type-aliases/TownRoom.md)

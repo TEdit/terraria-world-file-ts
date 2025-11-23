@@ -6,7 +6,7 @@
 
 # Class: default
 
-Defined in: [src/FileReader.ts:25](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/FileReader.ts#L25)
+Defined in: [src/FileReader.ts:27](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/FileReader.ts#L27)
 
 ## Constructors
 
@@ -24,13 +24,13 @@ Defined in: [src/FileReader.ts:25](https://github.com/cokolele/terraria-world-fi
 
 > **loadBuffer**(`buffer`): `Promise`\<`FileReader`\>
 
-Defined in: [src/FileReader.ts:54](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/FileReader.ts#L54)
+Defined in: [src/FileReader.ts:55](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/FileReader.ts#L55)
 
 #### Parameters
 
 ##### buffer
 
-[`ArrayBufferLike`](../-internal-/type-aliases/ArrayBufferLike.md)
+`ArrayBuffer`
 
 #### Returns
 
@@ -42,13 +42,13 @@ Defined in: [src/FileReader.ts:54](https://github.com/cokolele/terraria-world-fi
 
 > **loadFile**(`loader`, `path`): `Promise`\<`FileReader`\>
 
-Defined in: [src/FileReader.ts:48](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/FileReader.ts#L48)
+Defined in: [src/FileReader.ts:49](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/FileReader.ts#L49)
 
 #### Parameters
 
 ##### loader
 
-(`path`) => `Promise`\<[`ArrayBufferLike`](../-internal-/type-aliases/ArrayBufferLike.md)\>
+(`path`) => `Promise`\<`ArrayBuffer`\>
 
 ##### path
 
@@ -64,13 +64,13 @@ Defined in: [src/FileReader.ts:48](https://github.com/cokolele/terraria-world-fi
 
 > **parse**\<`T`\>(`options?`): [`SelectedDataMap`](../-internal-/type-aliases/SelectedDataMap.md)\<`T`\>
 
-Defined in: [src/FileReader.ts:60](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/FileReader.ts#L60)
+Defined in: [src/FileReader.ts:61](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/FileReader.ts#L61)
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* (`"fileFormatHeader"` \| `"header"` \| `"tiles"` \| `"chests"` \| `"signs"` \| `"NPCs"` \| `"tileEntities"` \| `"weightedPressurePlates"` \| `"townManager"` \| `"bestiary"` \| `"creativePowers"` \| `"footer"`)[]
+`T` *extends* (`"fileFormatHeader"` \| `"header"` \| `"worldTiles"` \| `"chests"` \| `"signs"` \| `"NPCs"` \| `"weightedPressurePlates"` \| `"townManager"` \| `"bestiary"` \| `"creativePowers"` \| `"footer"`)[]
 
 #### Parameters
 

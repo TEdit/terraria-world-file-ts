@@ -8,7 +8,7 @@
 
 > **Chest** = `object`
 
-Defined in: [src/parsers/chests.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L11)
+Defined in: [src/types.ts:58](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L58)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [src/parsers/chests.ts:11](https://github.com/cokolele/terraria-worl
 
 > `optional` **items**: [`ItemSlot`](ItemSlot.md)[]
 
-Defined in: [src/parsers/chests.ts:17](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L17)
+Defined in: [src/types.ts:61](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L61)
 
 ***
 
@@ -24,20 +24,12 @@ Defined in: [src/parsers/chests.ts:17](https://github.com/cokolele/terraria-worl
 
 > `optional` **name**: `string`
 
-Defined in: [src/parsers/chests.ts:16](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L16)
+Defined in: [src/types.ts:60](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L60)
 
 ***
 
 ### position
 
-> **position**: `object`
+> **position**: [`Position`](Position.md)
 
-Defined in: [src/parsers/chests.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L12)
-
-#### x
-
-> **x**: `number`
-
-#### y
-
-> **y**: `number`
+Defined in: [src/types.ts:59](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L59)

@@ -79,7 +79,7 @@ export default class BinarySaver {
     bytes.forEach((byte) => this.saveUInt8(byte))
   }
 
-  public saveString(text: string, saveLength = true) {
+  public saveString(text: string, saveLength = true): void {
     const stringBytes = new TextEncoder().encode(text)
 
     if (saveLength) {

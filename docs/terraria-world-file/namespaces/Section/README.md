@@ -6,8 +6,13 @@
 
 # Section
 
+## Interfaces
+
+- [IODefinition](interfaces/IODefinition.md)
+
 ## Type Aliases
 
 - [Data](type-aliases/Data.md)
+- [DataMap](type-aliases/DataMap.md)
+- [IO](type-aliases/IO.md)
 - [Name](type-aliases/Name.md)
-- [Parser](type-aliases/Parser.md)

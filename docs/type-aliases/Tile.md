@@ -8,7 +8,7 @@
 
 > **Tile** = `object`
 
-Defined in: [src/parsers/worldTiles.ts:4](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L4)
+Defined in: [src/types.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L8)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [src/parsers/worldTiles.ts:4](https://github.com/cokolele/terraria-w
 
 > `optional` **actuated**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:18](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L18)
+Defined in: [src/types.ts:22](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L22)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/parsers/worldTiles.ts:18](https://github.com/cokolele/terraria-
 
 > `optional` **actuator**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:17](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L17)
+Defined in: [src/types.ts:21](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L21)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/parsers/worldTiles.ts:17](https://github.com/cokolele/terraria-
 
 > `optional` **blockColor**: `number`
 
-Defined in: [src/parsers/worldTiles.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L8)
+Defined in: [src/types.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L12)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [src/parsers/worldTiles.ts:8](https://github.com/cokolele/terraria-w
 
 > `optional` **blockId**: `number`
 
-Defined in: [src/parsers/worldTiles.ts:5](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L5)
+Defined in: [src/types.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L9)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/parsers/worldTiles.ts:5](https://github.com/cokolele/terraria-w
 
 > `optional` **frameX**: `number`
 
-Defined in: [src/parsers/worldTiles.ts:6](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L6)
+Defined in: [src/types.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L10)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [src/parsers/worldTiles.ts:6](https://github.com/cokolele/terraria-w
 
 > `optional` **frameY**: `number`
 
-Defined in: [src/parsers/worldTiles.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L7)
+Defined in: [src/types.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L11)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/parsers/worldTiles.ts:7](https://github.com/cokolele/terraria-w
 
 > `optional` **fullBrightBlock**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:22](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L22)
+Defined in: [src/types.ts:26](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L26)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [src/parsers/worldTiles.ts:22](https://github.com/cokolele/terraria-
 
 > `optional` **fullBrightWall**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:23](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L23)
+Defined in: [src/types.ts:27](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L27)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [src/parsers/worldTiles.ts:23](https://github.com/cokolele/terraria-
 
 > `optional` **invisibleBlock**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:20](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L20)
+Defined in: [src/types.ts:24](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L24)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [src/parsers/worldTiles.ts:20](https://github.com/cokolele/terraria-
 
 > `optional` **invisibleWall**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:21](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L21)
+Defined in: [src/types.ts:25](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L25)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [src/parsers/worldTiles.ts:21](https://github.com/cokolele/terraria-
 
 > `optional` **liquidAmount**: `number`
 
-Defined in: [src/parsers/worldTiles.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L11)
+Defined in: [src/types.ts:15](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L15)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [src/parsers/worldTiles.ts:11](https://github.com/cokolele/terraria-
 
 > `optional` **liquidType**: [`Liquid`](../enumerations/Liquid.md)
 
-Defined in: [src/parsers/worldTiles.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L12)
+Defined in: [src/types.ts:16](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L16)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [src/parsers/worldTiles.ts:12](https://github.com/cokolele/terraria-
 
 > `optional` **slope**: [`Slope`](../enumerations/Slope.md)
 
-Defined in: [src/parsers/worldTiles.ts:16](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L16)
+Defined in: [src/types.ts:20](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L20)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: [src/parsers/worldTiles.ts:16](https://github.com/cokolele/terraria-
 
 > `optional` **wallColor**: `number`
 
-Defined in: [src/parsers/worldTiles.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L10)
+Defined in: [src/types.ts:14](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L14)
 
 ***
 
@@ -128,7 +128,7 @@ Defined in: [src/parsers/worldTiles.ts:10](https://github.com/cokolele/terraria-
 
 > `optional` **wallId**: `number`
 
-Defined in: [src/parsers/worldTiles.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L9)
+Defined in: [src/types.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L13)
 
 ***
 
@@ -136,7 +136,7 @@ Defined in: [src/parsers/worldTiles.ts:9](https://github.com/cokolele/terraria-w
 
 > `optional` **wireBlue**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:14](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L14)
+Defined in: [src/types.ts:18](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L18)
 
 ***
 
@@ -144,7 +144,7 @@ Defined in: [src/parsers/worldTiles.ts:14](https://github.com/cokolele/terraria-
 
 > `optional` **wireGreen**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:15](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L15)
+Defined in: [src/types.ts:19](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L19)
 
 ***
 
@@ -152,7 +152,7 @@ Defined in: [src/parsers/worldTiles.ts:15](https://github.com/cokolele/terraria-
 
 > `optional` **wireRed**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L13)
+Defined in: [src/types.ts:17](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L17)
 
 ***
 
@@ -160,4 +160,4 @@ Defined in: [src/parsers/worldTiles.ts:13](https://github.com/cokolele/terraria-
 
 > `optional` **wireYellow**: `boolean`
 
-Defined in: [src/parsers/worldTiles.ts:19](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/worldTiles.ts#L19)
+Defined in: [src/types.ts:23](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L23)

@@ -5,178 +5,178 @@ import type { Section } from '../sections'
 import type { GameMode } from '../types'
 
 export class HeaderData {
-  public mapName = ''
-  public seedText = ''
-  public worldGeneratorVersion = new Uint8Array(8)
-  public guid = new Uint8Array(16)
-  public worldId = 0
-  public leftWorld = 0
-  public rightWorld = 0
-  public topWorld = 0
-  public bottomWorld = 0
-  public maxTilesY = 0
-  public maxTilesX = 0
-  public gameMode = 0 as GameMode
-  public drunkWorld = false
-  public getGoodWorld = false
-  public getTenthAnniversaryWorld = false
-  public dontStarveWorld = false
-  public notTheBeesWorld = false
-  public remixWorld = false
-  public noTrapsWorld = false
-  public zenithWorld = false
-  public expertMode = false
-  public creationTime = new Uint8Array(8)
-  public moonType = 0
-  public treeX = [0, 0, 0] as [number, number, number]
-  public treeStyle = [0, 0, 0, 0] as [number, number, number, number]
-  public caveBackX = [0, 0, 0] as [number, number, number]
-  public caveBackStyle = [0, 0, 0, 0] as [number, number, number, number]
-  public iceBackStyle = 0
-  public jungleBackStyle = 0
-  public hellBackStyle = 0
-  public spawnTileX = 0
-  public spawnTileY = 0
-  public worldSurface = 0
-  public rockLayer = 0
-  public tempTime = 0
-  public tempDayTime = false
-  public tempMoonPhase = 0
-  public tempBloodMoon = false
-  public tempEclipse = false
-  public dungeonX = 0
-  public dungeonY = 0
-  public crimson = false
-  public downedBoss1 = false
-  public downedBoss2 = false
-  public downedBoss3 = false
-  public downedQueenBee = false
-  public downedMechBoss1 = false
-  public downedMechBoss2 = false
-  public downedMechBoss3 = false
-  public downedMechBossAny = false
-  public downedPlantBoss = false
-  public downedGolemBoss = false
-  public downedSlimeKing = false
-  public savedGoblin = false
-  public savedWizard = false
-  public savedMech = false
-  public downedGoblins = false
-  public downedClown = false
-  public downedFrost = false
-  public downedPirates = false
-  public shadowOrbSmashed = false
-  public spawnMeteor = false
-  public shadowOrbCount = 0
-  public altarCount = 0
-  public hardMode = false
-  public afterPartyOfDoom = false
-  public invasionDelay = 0
-  public invasionSize = 0
-  public invasionType = 0
-  public invasionX = 0
-  public slimeRainTime = 0
-  public sundialCooldown = 0
-  public tempRaining = false
-  public tempRainTime = 0
-  public tempMaxRain = 0
-  public oreTier1 = 0
-  public oreTier2 = 0
-  public oreTier3 = 0
-  public setBG0 = 0
-  public setBG1 = 0
-  public setBG2 = 0
-  public setBG3 = 0
-  public setBG4 = 0
-  public setBG5 = 0
-  public setBG6 = 0
-  public setBG7 = 0
-  public cloudBGActive = 0
-  public numClouds = 0
-  public windSpeed = 0
-  public anglerWhoFinishedToday = [] as string[]
-  public savedAngler = false
-  public anglerQuest = 0
-  public savedStylist = false
-  public savedTaxCollector = false
-  public savedGolfer = false
-  public invasionSizeStart = 0
-  public tempCultistDelay = 0
-  public killCount = [] as number[]
-  public fastForwardTimeToDawn = false
-  public downedFishron = false
-  public downedMartians = false
-  public downedAncientCultist = false
-  public downedMoonlord = false
-  public downedHalloweenKing = false
-  public downedHalloweenTree = false
-  public downedChristmasIceQueen = false
-  public downedChristmasSantank = false
-  public downedChristmasTree = false
-  public downedTowerSolar = false
-  public downedTowerVortex = false
-  public downedTowerNebula = false
-  public downedTowerStardust = false
-  public TowerActiveSolar = false
-  public TowerActiveVortex = false
-  public TowerActiveNebula = false
-  public TowerActiveStardust = false
-  public LunarApocalypseIsUp = false
-  public tempPartyManual = false
-  public tempPartyGenuine = false
-  public tempPartyCooldown = 0
-  public tempPartyCelebratingNPCs = [] as number[]
-  public Temp_Sandstorm_Happening = false
-  public Temp_Sandstorm_TimeLeft = 0
-  public Temp_Sandstorm_Severity = 0
-  public Temp_Sandstorm_IntendedSeverity = 0
-  public savedBartender = false
-  public DD2Event_DownedInvasionT1 = false
-  public DD2Event_DownedInvasionT2 = false
-  public DD2Event_DownedInvasionT3 = false
-  public setBG8 = 0
-  public setBG9 = 0
-  public setBG10 = 0
-  public setBG11 = 0
-  public setBG12 = 0
-  public combatBookWasUsed = false
-  public lanternNightCooldown = 0
-  public lanternNightGenuine = false
-  public lanternNightManual = false
-  public lanternNightNextNightIsGenuine = false
-  public treeTopsVariations = [] as number[]
-  public forceHalloweenForToday = false
-  public forceXMasForToday = false
-  public savedOreTierCopper = 0
-  public savedOreTierIron = 0
-  public savedOreTierSilver = 0
-  public savedOreTierGold = 0
-  public boughtCat = false
-  public boughtDog = false
-  public boughtBunny = false
-  public downedEmpressOfLight = false
-  public downedQueenSlime = false
-  public downedDeerclops = false
-  public unlockedSlimeBlueSpawn = false
-  public unlockedMerchantSpawn = false
-  public unlockedDemolitionistSpawn = false
-  public unlockedPartyGirlSpawn = false
-  public unlockedDyeTraderSpawn = false
-  public unlockedTruffleSpawn = false
-  public unlockedArmsDealerSpawn = false
-  public unlockedNurseSpawn = false
-  public unlockedPrincessSpawn = false
-  public combatBookVolumeTwoWasUsed = false
-  public peddlersSatchelWasUsed = false
-  public unlockedSlimeGreenSpawn = false
-  public unlockedSlimeOldSpawn = false
-  public unlockedSlimePurpleSpawn = false
-  public unlockedSlimeRainbowSpawn = false
-  public unlockedSlimeRedSpawn = false
-  public unlockedSlimeYellowSpawn = false
-  public unlockedSlimeCopperSpawn = false
-  public fastForwardTimeToDusk = false
-  public moondialCooldown = 0
+  public mapName!: string
+  public seedText!: string
+  public worldGeneratorVersion!: Uint8Array<ArrayBuffer>
+  public guid!: Uint8Array<ArrayBuffer>
+  public worldId!: number
+  public leftWorld!: number
+  public rightWorld!: number
+  public topWorld!: number
+  public bottomWorld!: number
+  public maxTilesY!: number
+  public maxTilesX!: number
+  public gameMode!: GameMode
+  public drunkWorld!: boolean
+  public getGoodWorld!: boolean
+  public getTenthAnniversaryWorld!: boolean
+  public dontStarveWorld!: boolean
+  public notTheBeesWorld!: boolean
+  public remixWorld!: boolean
+  public noTrapsWorld!: boolean
+  public zenithWorld!: boolean
+  public expertMode!: boolean
+  public creationTime!: Uint8Array<ArrayBuffer>
+  public moonType!: number
+  public treeX!: [number, number, number]
+  public treeStyle!: [number, number, number, number]
+  public caveBackX!: [number, number, number]
+  public caveBackStyle!: [number, number, number, number]
+  public iceBackStyle!: number
+  public jungleBackStyle!: number
+  public hellBackStyle!: number
+  public spawnTileX!: number
+  public spawnTileY!: number
+  public worldSurface!: number
+  public rockLayer!: number
+  public tempTime!: number
+  public tempDayTime!: boolean
+  public tempMoonPhase!: number
+  public tempBloodMoon!: boolean
+  public tempEclipse!: boolean
+  public dungeonX!: number
+  public dungeonY!: number
+  public crimson!: boolean
+  public downedBoss1!: boolean
+  public downedBoss2!: boolean
+  public downedBoss3!: boolean
+  public downedQueenBee!: boolean
+  public downedMechBoss1!: boolean
+  public downedMechBoss2!: boolean
+  public downedMechBoss3!: boolean
+  public downedMechBossAny!: boolean
+  public downedPlantBoss!: boolean
+  public downedGolemBoss!: boolean
+  public downedSlimeKing!: boolean
+  public savedGoblin!: boolean
+  public savedWizard!: boolean
+  public savedMech!: boolean
+  public downedGoblins!: boolean
+  public downedClown!: boolean
+  public downedFrost!: boolean
+  public downedPirates!: boolean
+  public shadowOrbSmashed!: boolean
+  public spawnMeteor!: boolean
+  public shadowOrbCount!: number
+  public altarCount!: number
+  public hardMode!: boolean
+  public afterPartyOfDoom!: boolean
+  public invasionDelay!: number
+  public invasionSize!: number
+  public invasionType!: number
+  public invasionX!: number
+  public slimeRainTime!: number
+  public sundialCooldown!: number
+  public tempRaining!: boolean
+  public tempRainTime!: number
+  public tempMaxRain!: number
+  public oreTier1!: number
+  public oreTier2!: number
+  public oreTier3!: number
+  public setBG0!: number
+  public setBG1!: number
+  public setBG2!: number
+  public setBG3!: number
+  public setBG4!: number
+  public setBG5!: number
+  public setBG6!: number
+  public setBG7!: number
+  public cloudBGActive!: number
+  public numClouds!: number
+  public windSpeed!: number
+  public anglerWhoFinishedToday!: string[]
+  public savedAngler!: boolean
+  public anglerQuest!: number
+  public savedStylist!: boolean
+  public savedTaxCollector!: boolean
+  public savedGolfer!: boolean
+  public invasionSizeStart!: number
+  public tempCultistDelay!: number
+  public killCount!: number[]
+  public fastForwardTimeToDawn!: boolean
+  public downedFishron!: boolean
+  public downedMartians!: boolean
+  public downedAncientCultist!: boolean
+  public downedMoonlord!: boolean
+  public downedHalloweenKing!: boolean
+  public downedHalloweenTree!: boolean
+  public downedChristmasIceQueen!: boolean
+  public downedChristmasSantank!: boolean
+  public downedChristmasTree!: boolean
+  public downedTowerSolar!: boolean
+  public downedTowerVortex!: boolean
+  public downedTowerNebula!: boolean
+  public downedTowerStardust!: boolean
+  public TowerActiveSolar!: boolean
+  public TowerActiveVortex!: boolean
+  public TowerActiveNebula!: boolean
+  public TowerActiveStardust!: boolean
+  public LunarApocalypseIsUp!: boolean
+  public tempPartyManual!: boolean
+  public tempPartyGenuine!: boolean
+  public tempPartyCooldown!: number
+  public tempPartyCelebratingNPCs!: number[]
+  public Temp_Sandstorm_Happening!: boolean
+  public Temp_Sandstorm_TimeLeft!: number
+  public Temp_Sandstorm_Severity!: number
+  public Temp_Sandstorm_IntendedSeverity!: number
+  public savedBartender!: boolean
+  public DD2Event_DownedInvasionT1!: boolean
+  public DD2Event_DownedInvasionT2!: boolean
+  public DD2Event_DownedInvasionT3!: boolean
+  public setBG8!: number
+  public setBG9!: number
+  public setBG10!: number
+  public setBG11!: number
+  public setBG12!: number
+  public combatBookWasUsed!: boolean
+  public lanternNightCooldown!: number
+  public lanternNightGenuine!: boolean
+  public lanternNightManual!: boolean
+  public lanternNightNextNightIsGenuine!: boolean
+  public treeTopsVariations!: number[]
+  public forceHalloweenForToday!: boolean
+  public forceXMasForToday!: boolean
+  public savedOreTierCopper!: number
+  public savedOreTierIron!: number
+  public savedOreTierSilver!: number
+  public savedOreTierGold!: number
+  public boughtCat!: boolean
+  public boughtDog!: boolean
+  public boughtBunny!: boolean
+  public downedEmpressOfLight!: boolean
+  public downedQueenSlime!: boolean
+  public downedDeerclops!: boolean
+  public unlockedSlimeBlueSpawn!: boolean
+  public unlockedMerchantSpawn!: boolean
+  public unlockedDemolitionistSpawn!: boolean
+  public unlockedPartyGirlSpawn!: boolean
+  public unlockedDyeTraderSpawn!: boolean
+  public unlockedTruffleSpawn!: boolean
+  public unlockedArmsDealerSpawn!: boolean
+  public unlockedNurseSpawn!: boolean
+  public unlockedPrincessSpawn!: boolean
+  public combatBookVolumeTwoWasUsed!: boolean
+  public peddlersSatchelWasUsed!: boolean
+  public unlockedSlimeGreenSpawn!: boolean
+  public unlockedSlimeOldSpawn!: boolean
+  public unlockedSlimePurpleSpawn!: boolean
+  public unlockedSlimeRainbowSpawn!: boolean
+  public unlockedSlimeRedSpawn!: boolean
+  public unlockedSlimeYellowSpawn!: boolean
+  public unlockedSlimeCopperSpawn!: boolean
+  public fastForwardTimeToDusk!: boolean
+  public moondialCooldown!: number
 }
 
 export default class HeaderIO implements Section.IODefinition<HeaderData> {

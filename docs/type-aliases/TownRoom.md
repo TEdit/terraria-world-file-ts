@@ -8,7 +8,7 @@
 
 > **TownRoom** = `object`
 
-Defined in: [src/parsers/townManager.ts:3](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/townManager.ts#L3)
+Defined in: [src/types.ts:82](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L82)
 
 ## Properties
 
@@ -16,20 +16,12 @@ Defined in: [src/parsers/townManager.ts:3](https://github.com/cokolele/terraria-
 
 > **NPCId**: `number`
 
-Defined in: [src/parsers/townManager.ts:4](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/townManager.ts#L4)
+Defined in: [src/types.ts:83](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L83)
 
 ***
 
 ### position
 
-> **position**: `object`
+> **position**: [`Position`](Position.md)
 
-Defined in: [src/parsers/townManager.ts:5](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/townManager.ts#L5)
-
-#### x
-
-> **x**: `number`
-
-#### y
-
-> **y**: `number`
+Defined in: [src/types.ts:84](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L84)

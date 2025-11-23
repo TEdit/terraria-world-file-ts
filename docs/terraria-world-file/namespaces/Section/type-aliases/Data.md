@@ -6,9 +6,9 @@
 
 # Type Alias: Data\<T\>
 
-> **Data**\<`T`\> = [`ReturnType`](../../../../-internal-/type-aliases/ReturnType.md)\<*typeof* [`sections`](../../../../-internal-/variables/sections.md)\[`T`\]\>
+> **Data**\<`T`\> = *typeof* [`sections`](../../../../-internal-/variables/sections.md)\[`T`\] *extends* [`IODefinition`](../interfaces/IODefinition.md)\<infer R\> ? `R` : `any`
 
-Defined in: [src/Section.ts:34](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/Section.ts#L34)
+Defined in: [src/sections.ts:52](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/sections.ts#L52)
 
 ## Type Parameters
 

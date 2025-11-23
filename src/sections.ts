@@ -14,7 +14,20 @@ import type BinaryReader from './BinaryReader'
 import type { WorldProperties } from './FileReader'
 import type BinarySaver from './BinarySaver'
 
-const sections = {
+const sections: {
+  readonly fileFormatHeader: FileFormatHeaderIO
+  readonly header: HeaderIO
+  readonly worldTiles: WorldTilesIO
+  readonly chests: ChestsIO
+  readonly signs: SignsIO
+  readonly NPCs: NPCsIO
+  // tileEntities: new TileEntitiesIO(),
+  readonly weightedPressurePlates: WeightedPressurePlatesIO
+  readonly townManager: TownManagerIO
+  readonly bestiary: BestiaryIO
+  readonly creativePowers: CreativePowersIO
+  readonly footer: FooterIO
+} = {
   fileFormatHeader: new FileFormatHeaderIO(),
   header: new HeaderIO(),
   worldTiles: new WorldTilesIO(),

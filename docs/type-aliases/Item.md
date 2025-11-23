@@ -8,7 +8,7 @@
 
 > **Item** = `object`
 
-Defined in: [src/parsers/chests.ts:3](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L3)
+Defined in: [src/types.ts:50](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L50)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [src/parsers/chests.ts:3](https://github.com/cokolele/terraria-world
 
 > **id**: `number`
 
-Defined in: [src/parsers/chests.ts:5](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L5)
+Defined in: [src/types.ts:52](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L52)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/parsers/chests.ts:5](https://github.com/cokolele/terraria-world
 
 > **prefix**: `number`
 
-Defined in: [src/parsers/chests.ts:6](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L6)
+Defined in: [src/types.ts:53](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L53)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [src/parsers/chests.ts:6](https://github.com/cokolele/terraria-world
 
 > **stack**: `number`
 
-Defined in: [src/parsers/chests.ts:4](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/parsers/chests.ts#L4)
+Defined in: [src/types.ts:51](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/types.ts#L51)

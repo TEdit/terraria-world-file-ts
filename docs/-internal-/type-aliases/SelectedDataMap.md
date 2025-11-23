@@ -8,7 +8,7 @@
 
 > **SelectedDataMap**\<`T`\> = `{ [K in T[number]]: Data<K> }`
 
-Defined in: [src/FileReader.ts:23](https://github.com/cokolele/terraria-world-file-ts/blob/94cb2473bcb7c6d856cdf2ac88c73740ebe5499e/src/FileReader.ts#L23)
+Defined in: [src/FileReader.ts:25](https://github.com/cokolele/terraria-world-file-ts/blob/bfce9f4c52db3d4b8cad9151c9666524e54d466b/src/FileReader.ts#L25)
 
 ## Type Parameters
 

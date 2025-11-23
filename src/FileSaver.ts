@@ -15,6 +15,8 @@ export default class FileSaver {
       version: world.fileFormatHeader.version,
       pointers: world.fileFormatHeader.pointers,
       importants: world.fileFormatHeader.importants,
+      mapName: world.header.mapName,
+      worldId: world.header.worldId,
       height: world.header.maxTilesY,
       width: world.header.maxTilesX,
     }
