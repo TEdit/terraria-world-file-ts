@@ -13,9 +13,15 @@ const sections = {
   fileFormatHeader: new FileFormatHeaderIO(),
   header: new HeaderIO(),
   worldTiles: new WorldTilesIO(),
-  signs: new SignsIO(),
   chests: new ChestsIO(),
+  signs: new SignsIO(),
   NPCs: new NPCsIO(),
+  // tileEntities: new TileEntitiesIO(),
+  // weightedPressurePlates: new WeightedPressurePlatesIO(),
+  // townManager: new TownManagerIO(),
+  // bestiary: new BestiaryIO(),
+  // creativePowers: new CreativePowersIO(),
+  // footer: new FooterIO(),
 } as const
 
 export namespace Section {
