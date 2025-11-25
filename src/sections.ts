@@ -9,6 +9,7 @@ import CreativePowersIO from './section/CreativePowers'
 import BestiaryIO from './section/Bestiary'
 import TownManagerIO from './section/TownManager'
 import WeightedPressurePlatesIO from './section/WeightedPressurePlates'
+import TileEntitiesIO from './section/TileEntities'
 
 import type BinaryReader from './BinaryReader'
 import type { WorldProperties } from './FileReader'
@@ -21,7 +22,7 @@ const sections: {
   readonly chests: ChestsIO
   readonly signs: SignsIO
   readonly NPCs: NPCsIO
-  // tileEntities: new TileEntitiesIO(),
+  readonly tileEntities: TileEntitiesIO
   readonly weightedPressurePlates: WeightedPressurePlatesIO
   readonly townManager: TownManagerIO
   readonly bestiary: BestiaryIO
@@ -34,7 +35,7 @@ const sections: {
   chests: new ChestsIO(),
   signs: new SignsIO(),
   NPCs: new NPCsIO(),
-  // tileEntities: new TileEntitiesIO(),
+  tileEntities: new TileEntitiesIO(),
   weightedPressurePlates: new WeightedPressurePlatesIO(),
   townManager: new TownManagerIO(),
   bestiary: new BestiaryIO(),

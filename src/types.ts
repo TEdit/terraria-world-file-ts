@@ -91,6 +91,94 @@ export type WeightedPressurePlate = {
   }
 }
 
+export enum TileEntityType {
+  TrainingDummy,
+  ItemFrame,
+  LogicSensor,
+  DisplayDoll,
+  WeaponsRack,
+  HatRack,
+  FoodPlatter,
+  Pylon,
+}
+
+export interface TileEntityBase {
+  type: TileEntityType
+  id: number
+  position: {
+    x: number
+    y: number
+  }
+}
+
+export interface TrainingDummy extends TileEntityBase {
+  type: TileEntityType.TrainingDummy
+  npc: number
+}
+
+export interface ItemFrame extends TileEntityBase {
+  type: TileEntityType.ItemFrame
+  item: Item
+}
+
+export interface LogicSensor extends TileEntityBase {
+  type: TileEntityType.LogicSensor
+  logicCheck: number
+  on: boolean
+}
+
+export interface DisplayDoll extends TileEntityBase {
+  type: TileEntityType.DisplayDoll
+  items: ItemSlot[]
+  dyes: ItemSlot[]
+}
+
+export enum DisplayDollSlot {
+  Armor_Head,
+  Armor_Shirt,
+  Armor_Legs,
+  Acc_1,
+  Acc_2,
+  Acc_3,
+  Acc_4,
+  Acc_5,
+}
+
+export interface WeaponsRack extends TileEntityBase {
+  type: TileEntityType.WeaponsRack
+  item: Item
+}
+
+export interface HatRack extends TileEntityBase {
+  type: TileEntityType.HatRack
+  items: ItemSlot[]
+  dyes: ItemSlot[]
+}
+
+export enum HatRackSlot {
+  LeftHat,
+  RightHat,
+}
+
+export interface FoodPlatter extends TileEntityBase {
+  type: TileEntityType.FoodPlatter
+  item: Item
+}
+
+export interface Pylon extends TileEntityBase {
+  type: TileEntityType.Pylon
+}
+
+export type TileEntity =
+  | TrainingDummy
+  | ItemFrame
+  | LogicSensor
+  | DisplayDoll
+  | WeaponsRack
+  | HatRack
+  | FoodPlatter
+  | Pylon
+
 export enum CreativePowerType {
   FreezeTime = 0,
   // StartDayImmediately,
