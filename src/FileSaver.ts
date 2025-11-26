@@ -34,16 +34,20 @@ export default class FileSaver {
       [],
     )
 
+    this.saver.trimBuffer()
+
     pointers.pop()
     while (pointers.length < 10) {
       pointers.push(0)
     }
 
     this.saver.jumpTo(24)
-    this.saver.saveInt16(pointers.length)
-    pointers.forEach((pointer) => this.saver.saveInt32(pointer))
+    this.saver.saveArray(
+      pointers,
+      (length) => this.saver.saveInt16(length),
+      (pointer) => this.saver.saveUInt32(pointer),
+    )
 
-    this.saver.trimEnd()
     return this.saver.getBuffer()
   }
 }

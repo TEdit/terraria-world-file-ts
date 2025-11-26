@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 import { fileLoader } from '../src/platform/node'
-import FileReader, { Liquid, Slope, GameMode } from '../src'
+import { FileReader, Liquid, Slope, GameMode } from '../src'
 
 const testFilePath = import.meta.dirname + '/test.wld'
 
@@ -10,7 +10,7 @@ const fileReaderTest = test.extend<{ reader: FileReader }>({
   },
 })
 
-describe.concurrent('Terraria World file reader', () => {
+describe.concurrent('File reader', () => {
   test('Node buffer loading', async () => {
     const buffer = await fileLoader(testFilePath)
     await expect(fileLoader(testFilePath)).resolves.toBeInstanceOf(ArrayBuffer)

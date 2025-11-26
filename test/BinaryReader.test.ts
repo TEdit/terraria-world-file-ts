@@ -1,6 +1,5 @@
 import { describe, expect, test } from 'vitest'
 import BinaryReader from '../src/BinaryReader'
-import { read } from 'fs'
 
 const data = [1, 255, 3, 255, 4, 255, 5, 255, 6, 255, 7, 255, 8, 255, 9, 255]
 const binaryReader = new BinaryReader()
@@ -15,7 +14,7 @@ const binaryReaderTest = test.extend<{ reader: BinaryReader }>({
   },
 })
 
-describe.concurrent('Terraria World File binary reader class', () => {
+describe.concurrent('Binary reader', () => {
   binaryReaderTest('Read data types', ({ reader }) => {
     expect(reader.readUInt8()).toEqual(1)
     expect(reader.readInt8()).toEqual(-1)

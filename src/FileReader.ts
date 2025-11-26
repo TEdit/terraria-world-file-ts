@@ -22,7 +22,7 @@ export type WorldProperties = {
   worldId: number
 }
 
-type SelectedDataMap<T extends Section.Name[]> = { [K in T[number]]: Section.Data<K> }
+export type SelectedDataMap<T extends Section.Name[] = Section.Name[]> = { [K in T[number]]: Section.Data<K> }
 
 export default class FileReader {
   private reader!: BinaryReader

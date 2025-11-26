@@ -1,7 +1,8 @@
-export { default } from './FileReader'
+export { default as FileReader } from './FileReader'
+export type { SelectedDataMap as WorldSections } from './FileReader'
+export { default as FileSaver } from './FileSaver'
 
 export * from './types'
-export type { Section } from './sections'
 export type { FileFormatHeaderData as FileFormatHeader } from './section/FileFormatHeader'
 export type { HeaderData as Header } from './section/Header'
 export type { WorldTilesData as WorldTiles } from './section/WorldTiles'

@@ -10,7 +10,7 @@ export default class BinarySaver {
   }
 
   private set offset(offset: number) {
-    if (this.offset + 10 > this.view.byteLength) {
+    if (offset + 10 > this.view.byteLength) {
       this.view = new DataView(this.view.buffer.transfer(this.view.byteLength + 4 * 1024 * 1024))
     }
 
@@ -19,6 +19,10 @@ export default class BinarySaver {
 
   public getBuffer(): ArrayBuffer {
     return this.view.buffer
+  }
+
+  public trimBuffer(): void {
+    this.view = new DataView(this.view.buffer.transfer(this.getPosition()))
   }
 
   public saveInt8(value: number): void {
@@ -132,9 +136,5 @@ export default class BinarySaver {
 
   public jumpTo(offset: number): void {
     this.offset = offset
-  }
-
-  public trimEnd(): void {
-    this.view = new DataView(this.view.buffer, 0, this.offset)
   }
 }
