@@ -34,18 +34,31 @@ bun add terraria-world-file
 
 ```typescript
 import { fileLoader } from 'terraria-world-file/node'
-import TerrariaWorldParser from 'terraria-world-file'
+import { FileReader, FileSaver, Position, TownNPC } from 'terraria-world-file'
+import * as fs from 'node:fs'
 
-const world = await new TerrariaWorldParser()
-  .loadFile(fileLoader, '/map.wld')
-  .parse()
+const parser = await new FileReader().loadFile(fileLoader, '/map.wld')
+const world = parser.parse()
 
-console.log('World seed is ' + world.header.seedText)
+const spawnPosition: Position = {
+  x: world.header.spawnTileX,
+  y: world.header.spawnTileY
+}
 
-// todo: Add support for saving
-//
-// world.header.name = 'Edited ' + world.header.name
-// new terrariaWorldSaver().save(world)
+const wizard: TownNPC = {
+  id: 108,
+  name: 'Gandalf',
+  position: spawnPosition,
+  homePosition: spawnPosition,
+  homeless: true,
+}
+
+world.NPCs.townNPCs.push(wizard)
+
+console.log(`Wizard has appeared at your base!`)
+
+const newFile = new FileSaver().save(world)
+fs.appendFileSync('/map.wld', Buffer.from(newFile))
 ```
 
 ## Documentation:
