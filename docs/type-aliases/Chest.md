@@ -8,7 +8,7 @@
 
 > **Chest** = `object`
 
-Defined in: [types.ts:58](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L58)
+Defined in: [types.ts:58](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L58)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [types.ts:58](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > `optional` **items**: [`ItemSlot`](ItemSlot.md)[]
 
-Defined in: [types.ts:61](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L61)
+Defined in: [types.ts:61](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L61)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [types.ts:61](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > `optional` **name**: `string`
 
-Defined in: [types.ts:60](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L60)
+Defined in: [types.ts:60](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L60)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [types.ts:60](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **position**: [`Position`](Position.md)
 
-Defined in: [types.ts:59](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L59)
+Defined in: [types.ts:59](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L59)

@@ -6,7 +6,7 @@
 
 # Enumeration: GameMode
 
-Defined in: [types.ts:1](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L1)
+Defined in: [types.ts:1](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L1)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:1](https://github.com/cokolele/terraria-world-file-ts/blob
 
 > **CreativeMode**: `3`
 
-Defined in: [types.ts:5](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L5)
+Defined in: [types.ts:5](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L5)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:5](https://github.com/cokolele/terraria-world-file-ts/blob
 
 > **ExpertMode**: `1`
 
-Defined in: [types.ts:3](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L3)
+Defined in: [types.ts:3](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L3)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:3](https://github.com/cokolele/terraria-world-file-ts/blob
 
 > **MasterMode**: `2`
 
-Defined in: [types.ts:4](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L4)
+Defined in: [types.ts:4](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L4)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:4](https://github.com/cokolele/terraria-world-file-ts/blob
 
 > **NormalMode**: `0`
 
-Defined in: [types.ts:2](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L2)
+Defined in: [types.ts:2](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L2)

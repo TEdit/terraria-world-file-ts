@@ -6,7 +6,7 @@
 
 # Interface: Pylon
 
-Defined in: [types.ts:168](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L168)
+Defined in: [types.ts:168](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L168)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:168](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **id**: `number`
 
-Defined in: [types.ts:107](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L107)
+Defined in: [types.ts:107](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L107)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:107](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **position**: `object`
 
-Defined in: [types.ts:108](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L108)
+Defined in: [types.ts:108](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L108)
 
 #### x
 
@@ -50,7 +50,7 @@ Defined in: [types.ts:108](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **type**: [`Pylon`](../enumerations/TileEntityType.md#pylon)
 
-Defined in: [types.ts:169](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L169)
+Defined in: [types.ts:169](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L169)
 
 #### Overrides
 

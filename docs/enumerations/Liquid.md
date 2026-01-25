@@ -6,7 +6,7 @@
 
 # Enumeration: Liquid
 
-Defined in: [types.ts:38](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L38)
+Defined in: [types.ts:38](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L38)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:38](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **Honey**: `3`
 
-Defined in: [types.ts:41](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L41)
+Defined in: [types.ts:41](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L41)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:41](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **Lava**: `2`
 
-Defined in: [types.ts:40](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L40)
+Defined in: [types.ts:40](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L40)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:40](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **Shimmer**: `4`
 
-Defined in: [types.ts:42](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L42)
+Defined in: [types.ts:42](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L42)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:42](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **Water**: `1`
 
-Defined in: [types.ts:39](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L39)
+Defined in: [types.ts:39](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L39)

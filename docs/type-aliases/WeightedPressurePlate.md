@@ -8,7 +8,7 @@
 
 > **WeightedPressurePlate** = `object`
 
-Defined in: [types.ts:87](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L87)
+Defined in: [types.ts:87](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L87)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [types.ts:87](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **position**: `object`
 
-Defined in: [types.ts:88](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L88)
+Defined in: [types.ts:88](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L88)
 
 #### x
 

@@ -6,7 +6,7 @@
 
 # Interface: HatRack
 
-Defined in: [types.ts:152](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L152)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:152](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **dyes**: [`ItemSlot`](../type-aliases/ItemSlot.md)[]
 
-Defined in: [types.ts:155](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L155)
+Defined in: [types.ts:155](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L155)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:155](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **id**: `number`
 
-Defined in: [types.ts:107](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L107)
+Defined in: [types.ts:107](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L107)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:107](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **items**: [`ItemSlot`](../type-aliases/ItemSlot.md)[]
 
-Defined in: [types.ts:154](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L154)
+Defined in: [types.ts:154](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L154)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:154](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **position**: `object`
 
-Defined in: [types.ts:108](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L108)
+Defined in: [types.ts:108](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L108)
 
 #### x
 
@@ -66,7 +66,7 @@ Defined in: [types.ts:108](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **type**: [`HatRack`](../enumerations/TileEntityType.md#hatrack)
 
-Defined in: [types.ts:153](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L153)
+Defined in: [types.ts:153](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L153)
 
 #### Overrides
 

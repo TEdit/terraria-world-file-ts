@@ -6,7 +6,7 @@
 
 # Enumeration: HatRackSlot
 
-Defined in: [types.ts:158](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L158)
+Defined in: [types.ts:158](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L158)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:158](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **LeftHat**: `0`
 
-Defined in: [types.ts:159](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L159)
+Defined in: [types.ts:159](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L159)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [types.ts:159](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **RightHat**: `1`
 
-Defined in: [types.ts:160](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L160)
+Defined in: [types.ts:160](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L160)

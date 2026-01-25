@@ -6,7 +6,7 @@
 
 # Interface: Bestiary
 
-Defined in: [section/Bestiary.ts:6](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Bestiary.ts#L6)
+Defined in: [section/Bestiary.ts:6](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Bestiary.ts#L6)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [section/Bestiary.ts:6](https://github.com/cokolele/terraria-world-f
 
 > **NPCChats**: `string`[]
 
-Defined in: [section/Bestiary.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Bestiary.ts#L9)
+Defined in: [section/Bestiary.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Bestiary.ts#L9)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [section/Bestiary.ts:9](https://github.com/cokolele/terraria-world-f
 
 > **NPCKills**: `object`
 
-Defined in: [section/Bestiary.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Bestiary.ts#L7)
+Defined in: [section/Bestiary.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Bestiary.ts#L7)
 
 #### Index Signature
 
@@ -34,4 +34,4 @@ Defined in: [section/Bestiary.ts:7](https://github.com/cokolele/terraria-world-f
 
 > **NPCSights**: `string`[]
 
-Defined in: [section/Bestiary.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Bestiary.ts#L8)
+Defined in: [section/Bestiary.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Bestiary.ts#L8)

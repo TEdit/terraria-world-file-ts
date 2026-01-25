@@ -6,7 +6,7 @@
 
 # Interface: TownNPC
 
-Defined in: [types.ts:74](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L74)
+Defined in: [types.ts:74](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L74)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:74](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **homeless**: `boolean`
 
-Defined in: [types.ts:76](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L76)
+Defined in: [types.ts:76](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L76)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:76](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **homePosition**: [`Position`](../type-aliases/Position.md)
 
-Defined in: [types.ts:77](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L77)
+Defined in: [types.ts:77](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L77)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types.ts:77](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **id**: `number`
 
-Defined in: [types.ts:70](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L70)
+Defined in: [types.ts:70](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L70)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:70](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **name**: `string`
 
-Defined in: [types.ts:75](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L75)
+Defined in: [types.ts:75](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L75)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types.ts:75](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **position**: [`Position`](../type-aliases/Position.md)
 
-Defined in: [types.ts:71](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L71)
+Defined in: [types.ts:71](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L71)
 
 #### Inherited from
 
@@ -66,7 +66,7 @@ Defined in: [types.ts:71](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > `optional` **shimmered**: `boolean`
 
-Defined in: [types.ts:79](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L79)
+Defined in: [types.ts:79](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L79)
 
 ***
 
@@ -74,4 +74,4 @@ Defined in: [types.ts:79](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > `optional` **variationIndex**: `number`
 
-Defined in: [types.ts:78](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L78)
+Defined in: [types.ts:78](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L78)

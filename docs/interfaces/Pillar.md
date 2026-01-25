@@ -6,7 +6,7 @@
 
 # Interface: Pillar
 
-Defined in: [types.ts:69](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L69)
+Defined in: [types.ts:69](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L69)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:69](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **id**: `number`
 
-Defined in: [types.ts:70](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L70)
+Defined in: [types.ts:70](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L70)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [types.ts:70](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **position**: [`Position`](../type-aliases/Position.md)
 
-Defined in: [types.ts:71](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L71)
+Defined in: [types.ts:71](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L71)

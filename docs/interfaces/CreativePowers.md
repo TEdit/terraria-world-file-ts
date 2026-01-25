@@ -6,7 +6,7 @@
 
 # Interface: CreativePowers
 
-Defined in: [section/CreativePowers.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/CreativePowers.ts#L7)
+Defined in: [section/CreativePowers.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/CreativePowers.ts#L7)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [section/CreativePowers.ts:7](https://github.com/cokolele/terraria-w
 
 > **difficultySliderPower**: `number`
 
-Defined in: [section/CreativePowers.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/CreativePowers.ts#L12)
+Defined in: [section/CreativePowers.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/CreativePowers.ts#L12)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [section/CreativePowers.ts:12](https://github.com/cokolele/terraria-
 
 > **freezeRainPower**: `boolean`
 
-Defined in: [section/CreativePowers.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/CreativePowers.ts#L10)
+Defined in: [section/CreativePowers.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/CreativePowers.ts#L10)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [section/CreativePowers.ts:10](https://github.com/cokolele/terraria-
 
 > **freezeTime**: `boolean`
 
-Defined in: [section/CreativePowers.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/CreativePowers.ts#L8)
+Defined in: [section/CreativePowers.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/CreativePowers.ts#L8)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [section/CreativePowers.ts:8](https://github.com/cokolele/terraria-w
 
 > **freezeWindDirectionAndStrength**: `boolean`
 
-Defined in: [section/CreativePowers.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/CreativePowers.ts#L11)
+Defined in: [section/CreativePowers.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/CreativePowers.ts#L11)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [section/CreativePowers.ts:11](https://github.com/cokolele/terraria-
 
 > **modifyTimeRate**: `number`
 
-Defined in: [section/CreativePowers.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/CreativePowers.ts#L9)
+Defined in: [section/CreativePowers.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/CreativePowers.ts#L9)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [section/CreativePowers.ts:9](https://github.com/cokolele/terraria-w
 
 > **stopBiomeSpreadPower**: `boolean`
 
-Defined in: [section/CreativePowers.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/CreativePowers.ts#L13)
+Defined in: [section/CreativePowers.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/CreativePowers.ts#L13)

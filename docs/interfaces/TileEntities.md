@@ -6,7 +6,7 @@
 
 # Interface: TileEntities
 
-Defined in: [section/TileEntities.ts:21](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/TileEntities.ts#L21)
+Defined in: [section/TileEntities.ts:21](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/TileEntities.ts#L21)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [section/TileEntities.ts:21](https://github.com/cokolele/terraria-wo
 
 > **entities**: [`TileEntity`](../type-aliases/TileEntity.md)[]
 
-Defined in: [section/TileEntities.ts:22](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/TileEntities.ts#L22)
+Defined in: [section/TileEntities.ts:22](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/TileEntities.ts#L22)

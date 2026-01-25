@@ -6,7 +6,7 @@
 
 # Interface: FileFormatHeader
 
-Defined in: [section/FileFormatHeader.ts:6](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L6)
+Defined in: [section/FileFormatHeader.ts:6](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L6)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [section/FileFormatHeader.ts:6](https://github.com/cokolele/terraria
 
 > **favorite**: `boolean`
 
-Defined in: [section/FileFormatHeader.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L11)
+Defined in: [section/FileFormatHeader.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L11)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [section/FileFormatHeader.ts:11](https://github.com/cokolele/terrari
 
 > **fileType**: `2`
 
-Defined in: [section/FileFormatHeader.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L9)
+Defined in: [section/FileFormatHeader.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L9)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [section/FileFormatHeader.ts:9](https://github.com/cokolele/terraria
 
 > **importants**: `boolean`[]
 
-Defined in: [section/FileFormatHeader.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L13)
+Defined in: [section/FileFormatHeader.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L13)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [section/FileFormatHeader.ts:13](https://github.com/cokolele/terrari
 
 > **magicNumber**: `"relogic"`
 
-Defined in: [section/FileFormatHeader.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L8)
+Defined in: [section/FileFormatHeader.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L8)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [section/FileFormatHeader.ts:8](https://github.com/cokolele/terraria
 
 > **pointers**: `number`[]
 
-Defined in: [section/FileFormatHeader.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L12)
+Defined in: [section/FileFormatHeader.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L12)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [section/FileFormatHeader.ts:12](https://github.com/cokolele/terrari
 
 > **revision**: `number`
 
-Defined in: [section/FileFormatHeader.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L10)
+Defined in: [section/FileFormatHeader.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L10)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [section/FileFormatHeader.ts:10](https://github.com/cokolele/terrari
 
 > **version**: `number`
 
-Defined in: [section/FileFormatHeader.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/FileFormatHeader.ts#L7)
+Defined in: [section/FileFormatHeader.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/FileFormatHeader.ts#L7)

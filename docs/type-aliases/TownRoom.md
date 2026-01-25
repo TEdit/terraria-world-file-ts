@@ -8,7 +8,7 @@
 
 > **TownRoom** = `object`
 
-Defined in: [types.ts:82](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L82)
+Defined in: [types.ts:82](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L82)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [types.ts:82](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **NPCId**: `number`
 
-Defined in: [types.ts:83](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L83)
+Defined in: [types.ts:83](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L83)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [types.ts:83](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **position**: [`Position`](Position.md)
 
-Defined in: [types.ts:84](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L84)
+Defined in: [types.ts:84](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L84)

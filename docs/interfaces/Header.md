@@ -6,7 +6,7 @@
 
 # Interface: Header
 
-Defined in: [section/Header.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L7)
+Defined in: [section/Header.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L7)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [section/Header.ts:7](https://github.com/cokolele/terraria-world-fil
 
 > **afterPartyOfDoom**: `boolean`
 
-Defined in: [section/Header.ts:73](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L73)
+Defined in: [section/Header.ts:73](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L73)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [section/Header.ts:73](https://github.com/cokolele/terraria-world-fi
 
 > **altarCount**: `number`
 
-Defined in: [section/Header.ts:71](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L71)
+Defined in: [section/Header.ts:71](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L71)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [section/Header.ts:71](https://github.com/cokolele/terraria-world-fi
 
 > **anglerQuest**: `number`
 
-Defined in: [section/Header.ts:99](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L99)
+Defined in: [section/Header.ts:99](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L99)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [section/Header.ts:99](https://github.com/cokolele/terraria-world-fi
 
 > **anglerWhoFinishedToday**: `string`[]
 
-Defined in: [section/Header.ts:97](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L97)
+Defined in: [section/Header.ts:97](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L97)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [section/Header.ts:97](https://github.com/cokolele/terraria-world-fi
 
 > **bottomWorld**: `number`
 
-Defined in: [section/Header.ts:16](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L16)
+Defined in: [section/Header.ts:16](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L16)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [section/Header.ts:16](https://github.com/cokolele/terraria-world-fi
 
 > **boughtBunny**: `boolean`
 
-Defined in: [section/Header.ts:156](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L156)
+Defined in: [section/Header.ts:156](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L156)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [section/Header.ts:156](https://github.com/cokolele/terraria-world-f
 
 > **boughtCat**: `boolean`
 
-Defined in: [section/Header.ts:154](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L154)
+Defined in: [section/Header.ts:154](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L154)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [section/Header.ts:154](https://github.com/cokolele/terraria-world-f
 
 > **boughtDog**: `boolean`
 
-Defined in: [section/Header.ts:155](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L155)
+Defined in: [section/Header.ts:155](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L155)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [section/Header.ts:155](https://github.com/cokolele/terraria-world-f
 
 > **caveBackStyle**: \[`number`, `number`, `number`, `number`\]
 
-Defined in: [section/Header.ts:34](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L34)
+Defined in: [section/Header.ts:34](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L34)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [section/Header.ts:34](https://github.com/cokolele/terraria-world-fi
 
 > **caveBackX**: \[`number`, `number`, `number`\]
 
-Defined in: [section/Header.ts:33](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L33)
+Defined in: [section/Header.ts:33](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L33)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [section/Header.ts:33](https://github.com/cokolele/terraria-world-fi
 
 > **cloudBGActive**: `number`
 
-Defined in: [section/Header.ts:94](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L94)
+Defined in: [section/Header.ts:94](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L94)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [section/Header.ts:94](https://github.com/cokolele/terraria-world-fi
 
 > **combatBookVolumeTwoWasUsed**: `boolean`
 
-Defined in: [section/Header.ts:169](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L169)
+Defined in: [section/Header.ts:169](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L169)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [section/Header.ts:169](https://github.com/cokolele/terraria-world-f
 
 > **combatBookWasUsed**: `boolean`
 
-Defined in: [section/Header.ts:142](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L142)
+Defined in: [section/Header.ts:142](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L142)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: [section/Header.ts:142](https://github.com/cokolele/terraria-world-f
 
 > **creationTime**: `Uint8Array`\<`ArrayBuffer`\>
 
-Defined in: [section/Header.ts:29](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L29)
+Defined in: [section/Header.ts:29](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L29)
 
 ***
 
@@ -126,7 +126,7 @@ Defined in: [section/Header.ts:29](https://github.com/cokolele/terraria-world-fi
 
 > **crimson**: `boolean`
 
-Defined in: [section/Header.ts:49](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L49)
+Defined in: [section/Header.ts:49](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L49)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [section/Header.ts:49](https://github.com/cokolele/terraria-world-fi
 
 > **DD2Event\_DownedInvasionT1**: `boolean`
 
-Defined in: [section/Header.ts:134](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L134)
+Defined in: [section/Header.ts:134](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L134)
 
 ***
 
@@ -142,7 +142,7 @@ Defined in: [section/Header.ts:134](https://github.com/cokolele/terraria-world-f
 
 > **DD2Event\_DownedInvasionT2**: `boolean`
 
-Defined in: [section/Header.ts:135](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L135)
+Defined in: [section/Header.ts:135](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L135)
 
 ***
 
@@ -150,7 +150,7 @@ Defined in: [section/Header.ts:135](https://github.com/cokolele/terraria-world-f
 
 > **DD2Event\_DownedInvasionT3**: `boolean`
 
-Defined in: [section/Header.ts:136](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L136)
+Defined in: [section/Header.ts:136](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L136)
 
 ***
 
@@ -158,7 +158,7 @@ Defined in: [section/Header.ts:136](https://github.com/cokolele/terraria-world-f
 
 > **dontStarveWorld**: `boolean`
 
-Defined in: [section/Header.ts:23](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L23)
+Defined in: [section/Header.ts:23](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L23)
 
 ***
 
@@ -166,7 +166,7 @@ Defined in: [section/Header.ts:23](https://github.com/cokolele/terraria-world-fi
 
 > **downedAncientCultist**: `boolean`
 
-Defined in: [section/Header.ts:109](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L109)
+Defined in: [section/Header.ts:109](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L109)
 
 ***
 
@@ -174,7 +174,7 @@ Defined in: [section/Header.ts:109](https://github.com/cokolele/terraria-world-f
 
 > **downedBoss1**: `boolean`
 
-Defined in: [section/Header.ts:50](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L50)
+Defined in: [section/Header.ts:50](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L50)
 
 ***
 
@@ -182,7 +182,7 @@ Defined in: [section/Header.ts:50](https://github.com/cokolele/terraria-world-fi
 
 > **downedBoss2**: `boolean`
 
-Defined in: [section/Header.ts:51](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L51)
+Defined in: [section/Header.ts:51](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L51)
 
 ***
 
@@ -190,7 +190,7 @@ Defined in: [section/Header.ts:51](https://github.com/cokolele/terraria-world-fi
 
 > **downedBoss3**: `boolean`
 
-Defined in: [section/Header.ts:52](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L52)
+Defined in: [section/Header.ts:52](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L52)
 
 ***
 
@@ -198,7 +198,7 @@ Defined in: [section/Header.ts:52](https://github.com/cokolele/terraria-world-fi
 
 > **downedChristmasIceQueen**: `boolean`
 
-Defined in: [section/Header.ts:113](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L113)
+Defined in: [section/Header.ts:113](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L113)
 
 ***
 
@@ -206,7 +206,7 @@ Defined in: [section/Header.ts:113](https://github.com/cokolele/terraria-world-f
 
 > **downedChristmasSantank**: `boolean`
 
-Defined in: [section/Header.ts:114](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L114)
+Defined in: [section/Header.ts:114](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L114)
 
 ***
 
@@ -214,7 +214,7 @@ Defined in: [section/Header.ts:114](https://github.com/cokolele/terraria-world-f
 
 > **downedChristmasTree**: `boolean`
 
-Defined in: [section/Header.ts:115](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L115)
+Defined in: [section/Header.ts:115](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L115)
 
 ***
 
@@ -222,7 +222,7 @@ Defined in: [section/Header.ts:115](https://github.com/cokolele/terraria-world-f
 
 > **downedClown**: `boolean`
 
-Defined in: [section/Header.ts:65](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L65)
+Defined in: [section/Header.ts:65](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L65)
 
 ***
 
@@ -230,7 +230,7 @@ Defined in: [section/Header.ts:65](https://github.com/cokolele/terraria-world-fi
 
 > **downedDeerclops**: `boolean`
 
-Defined in: [section/Header.ts:159](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L159)
+Defined in: [section/Header.ts:159](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L159)
 
 ***
 
@@ -238,7 +238,7 @@ Defined in: [section/Header.ts:159](https://github.com/cokolele/terraria-world-f
 
 > **downedEmpressOfLight**: `boolean`
 
-Defined in: [section/Header.ts:157](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L157)
+Defined in: [section/Header.ts:157](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L157)
 
 ***
 
@@ -246,7 +246,7 @@ Defined in: [section/Header.ts:157](https://github.com/cokolele/terraria-world-f
 
 > **downedFishron**: `boolean`
 
-Defined in: [section/Header.ts:107](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L107)
+Defined in: [section/Header.ts:107](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L107)
 
 ***
 
@@ -254,7 +254,7 @@ Defined in: [section/Header.ts:107](https://github.com/cokolele/terraria-world-f
 
 > **downedFrost**: `boolean`
 
-Defined in: [section/Header.ts:66](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L66)
+Defined in: [section/Header.ts:66](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L66)
 
 ***
 
@@ -262,7 +262,7 @@ Defined in: [section/Header.ts:66](https://github.com/cokolele/terraria-world-fi
 
 > **downedGoblins**: `boolean`
 
-Defined in: [section/Header.ts:64](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L64)
+Defined in: [section/Header.ts:64](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L64)
 
 ***
 
@@ -270,7 +270,7 @@ Defined in: [section/Header.ts:64](https://github.com/cokolele/terraria-world-fi
 
 > **downedGolemBoss**: `boolean`
 
-Defined in: [section/Header.ts:59](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L59)
+Defined in: [section/Header.ts:59](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L59)
 
 ***
 
@@ -278,7 +278,7 @@ Defined in: [section/Header.ts:59](https://github.com/cokolele/terraria-world-fi
 
 > **downedHalloweenKing**: `boolean`
 
-Defined in: [section/Header.ts:111](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L111)
+Defined in: [section/Header.ts:111](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L111)
 
 ***
 
@@ -286,7 +286,7 @@ Defined in: [section/Header.ts:111](https://github.com/cokolele/terraria-world-f
 
 > **downedHalloweenTree**: `boolean`
 
-Defined in: [section/Header.ts:112](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L112)
+Defined in: [section/Header.ts:112](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L112)
 
 ***
 
@@ -294,7 +294,7 @@ Defined in: [section/Header.ts:112](https://github.com/cokolele/terraria-world-f
 
 > **downedMartians**: `boolean`
 
-Defined in: [section/Header.ts:108](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L108)
+Defined in: [section/Header.ts:108](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L108)
 
 ***
 
@@ -302,7 +302,7 @@ Defined in: [section/Header.ts:108](https://github.com/cokolele/terraria-world-f
 
 > **downedMechBoss1**: `boolean`
 
-Defined in: [section/Header.ts:54](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L54)
+Defined in: [section/Header.ts:54](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L54)
 
 ***
 
@@ -310,7 +310,7 @@ Defined in: [section/Header.ts:54](https://github.com/cokolele/terraria-world-fi
 
 > **downedMechBoss2**: `boolean`
 
-Defined in: [section/Header.ts:55](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L55)
+Defined in: [section/Header.ts:55](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L55)
 
 ***
 
@@ -318,7 +318,7 @@ Defined in: [section/Header.ts:55](https://github.com/cokolele/terraria-world-fi
 
 > **downedMechBoss3**: `boolean`
 
-Defined in: [section/Header.ts:56](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L56)
+Defined in: [section/Header.ts:56](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L56)
 
 ***
 
@@ -326,7 +326,7 @@ Defined in: [section/Header.ts:56](https://github.com/cokolele/terraria-world-fi
 
 > **downedMechBossAny**: `boolean`
 
-Defined in: [section/Header.ts:57](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L57)
+Defined in: [section/Header.ts:57](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L57)
 
 ***
 
@@ -334,7 +334,7 @@ Defined in: [section/Header.ts:57](https://github.com/cokolele/terraria-world-fi
 
 > **downedMoonlord**: `boolean`
 
-Defined in: [section/Header.ts:110](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L110)
+Defined in: [section/Header.ts:110](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L110)
 
 ***
 
@@ -342,7 +342,7 @@ Defined in: [section/Header.ts:110](https://github.com/cokolele/terraria-world-f
 
 > **downedPirates**: `boolean`
 
-Defined in: [section/Header.ts:67](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L67)
+Defined in: [section/Header.ts:67](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L67)
 
 ***
 
@@ -350,7 +350,7 @@ Defined in: [section/Header.ts:67](https://github.com/cokolele/terraria-world-fi
 
 > **downedPlantBoss**: `boolean`
 
-Defined in: [section/Header.ts:58](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L58)
+Defined in: [section/Header.ts:58](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L58)
 
 ***
 
@@ -358,7 +358,7 @@ Defined in: [section/Header.ts:58](https://github.com/cokolele/terraria-world-fi
 
 > **downedQueenBee**: `boolean`
 
-Defined in: [section/Header.ts:53](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L53)
+Defined in: [section/Header.ts:53](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L53)
 
 ***
 
@@ -366,7 +366,7 @@ Defined in: [section/Header.ts:53](https://github.com/cokolele/terraria-world-fi
 
 > **downedQueenSlime**: `boolean`
 
-Defined in: [section/Header.ts:158](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L158)
+Defined in: [section/Header.ts:158](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L158)
 
 ***
 
@@ -374,7 +374,7 @@ Defined in: [section/Header.ts:158](https://github.com/cokolele/terraria-world-f
 
 > **downedSlimeKing**: `boolean`
 
-Defined in: [section/Header.ts:60](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L60)
+Defined in: [section/Header.ts:60](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L60)
 
 ***
 
@@ -382,7 +382,7 @@ Defined in: [section/Header.ts:60](https://github.com/cokolele/terraria-world-fi
 
 > **downedTowerNebula**: `boolean`
 
-Defined in: [section/Header.ts:118](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L118)
+Defined in: [section/Header.ts:118](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L118)
 
 ***
 
@@ -390,7 +390,7 @@ Defined in: [section/Header.ts:118](https://github.com/cokolele/terraria-world-f
 
 > **downedTowerSolar**: `boolean`
 
-Defined in: [section/Header.ts:116](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L116)
+Defined in: [section/Header.ts:116](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L116)
 
 ***
 
@@ -398,7 +398,7 @@ Defined in: [section/Header.ts:116](https://github.com/cokolele/terraria-world-f
 
 > **downedTowerStardust**: `boolean`
 
-Defined in: [section/Header.ts:119](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L119)
+Defined in: [section/Header.ts:119](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L119)
 
 ***
 
@@ -406,7 +406,7 @@ Defined in: [section/Header.ts:119](https://github.com/cokolele/terraria-world-f
 
 > **downedTowerVortex**: `boolean`
 
-Defined in: [section/Header.ts:117](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L117)
+Defined in: [section/Header.ts:117](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L117)
 
 ***
 
@@ -414,7 +414,7 @@ Defined in: [section/Header.ts:117](https://github.com/cokolele/terraria-world-f
 
 > **drunkWorld**: `boolean`
 
-Defined in: [section/Header.ts:20](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L20)
+Defined in: [section/Header.ts:20](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L20)
 
 ***
 
@@ -422,7 +422,7 @@ Defined in: [section/Header.ts:20](https://github.com/cokolele/terraria-world-fi
 
 > **dungeonX**: `number`
 
-Defined in: [section/Header.ts:47](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L47)
+Defined in: [section/Header.ts:47](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L47)
 
 ***
 
@@ -430,7 +430,7 @@ Defined in: [section/Header.ts:47](https://github.com/cokolele/terraria-world-fi
 
 > **dungeonY**: `number`
 
-Defined in: [section/Header.ts:48](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L48)
+Defined in: [section/Header.ts:48](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L48)
 
 ***
 
@@ -438,7 +438,7 @@ Defined in: [section/Header.ts:48](https://github.com/cokolele/terraria-world-fi
 
 > **expertMode**: `boolean`
 
-Defined in: [section/Header.ts:28](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L28)
+Defined in: [section/Header.ts:28](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L28)
 
 ***
 
@@ -446,7 +446,7 @@ Defined in: [section/Header.ts:28](https://github.com/cokolele/terraria-world-fi
 
 > **fastForwardTimeToDawn**: `boolean`
 
-Defined in: [section/Header.ts:106](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L106)
+Defined in: [section/Header.ts:106](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L106)
 
 ***
 
@@ -454,7 +454,7 @@ Defined in: [section/Header.ts:106](https://github.com/cokolele/terraria-world-f
 
 > **fastForwardTimeToDusk**: `boolean`
 
-Defined in: [section/Header.ts:178](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L178)
+Defined in: [section/Header.ts:178](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L178)
 
 ***
 
@@ -462,7 +462,7 @@ Defined in: [section/Header.ts:178](https://github.com/cokolele/terraria-world-f
 
 > **forceHalloweenForToday**: `boolean`
 
-Defined in: [section/Header.ts:148](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L148)
+Defined in: [section/Header.ts:148](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L148)
 
 ***
 
@@ -470,7 +470,7 @@ Defined in: [section/Header.ts:148](https://github.com/cokolele/terraria-world-f
 
 > **forceXMasForToday**: `boolean`
 
-Defined in: [section/Header.ts:149](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L149)
+Defined in: [section/Header.ts:149](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L149)
 
 ***
 
@@ -478,7 +478,7 @@ Defined in: [section/Header.ts:149](https://github.com/cokolele/terraria-world-f
 
 > **gameMode**: [`GameMode`](../enumerations/GameMode.md)
 
-Defined in: [section/Header.ts:19](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L19)
+Defined in: [section/Header.ts:19](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L19)
 
 ***
 
@@ -486,7 +486,7 @@ Defined in: [section/Header.ts:19](https://github.com/cokolele/terraria-world-fi
 
 > **getGoodWorld**: `boolean`
 
-Defined in: [section/Header.ts:21](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L21)
+Defined in: [section/Header.ts:21](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L21)
 
 ***
 
@@ -494,7 +494,7 @@ Defined in: [section/Header.ts:21](https://github.com/cokolele/terraria-world-fi
 
 > **getTenthAnniversaryWorld**: `boolean`
 
-Defined in: [section/Header.ts:22](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L22)
+Defined in: [section/Header.ts:22](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L22)
 
 ***
 
@@ -502,7 +502,7 @@ Defined in: [section/Header.ts:22](https://github.com/cokolele/terraria-world-fi
 
 > **guid**: `Uint8Array`\<`ArrayBuffer`\>
 
-Defined in: [section/Header.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L11)
+Defined in: [section/Header.ts:11](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L11)
 
 ***
 
@@ -510,7 +510,7 @@ Defined in: [section/Header.ts:11](https://github.com/cokolele/terraria-world-fi
 
 > **hardMode**: `boolean`
 
-Defined in: [section/Header.ts:72](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L72)
+Defined in: [section/Header.ts:72](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L72)
 
 ***
 
@@ -518,7 +518,7 @@ Defined in: [section/Header.ts:72](https://github.com/cokolele/terraria-world-fi
 
 > **hellBackStyle**: `number`
 
-Defined in: [section/Header.ts:37](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L37)
+Defined in: [section/Header.ts:37](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L37)
 
 ***
 
@@ -526,7 +526,7 @@ Defined in: [section/Header.ts:37](https://github.com/cokolele/terraria-world-fi
 
 > **iceBackStyle**: `number`
 
-Defined in: [section/Header.ts:35](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L35)
+Defined in: [section/Header.ts:35](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L35)
 
 ***
 
@@ -534,7 +534,7 @@ Defined in: [section/Header.ts:35](https://github.com/cokolele/terraria-world-fi
 
 > **invasionDelay**: `number`
 
-Defined in: [section/Header.ts:74](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L74)
+Defined in: [section/Header.ts:74](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L74)
 
 ***
 
@@ -542,7 +542,7 @@ Defined in: [section/Header.ts:74](https://github.com/cokolele/terraria-world-fi
 
 > **invasionSize**: `number`
 
-Defined in: [section/Header.ts:75](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L75)
+Defined in: [section/Header.ts:75](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L75)
 
 ***
 
@@ -550,7 +550,7 @@ Defined in: [section/Header.ts:75](https://github.com/cokolele/terraria-world-fi
 
 > **invasionSizeStart**: `number`
 
-Defined in: [section/Header.ts:103](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L103)
+Defined in: [section/Header.ts:103](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L103)
 
 ***
 
@@ -558,7 +558,7 @@ Defined in: [section/Header.ts:103](https://github.com/cokolele/terraria-world-f
 
 > **invasionType**: `number`
 
-Defined in: [section/Header.ts:76](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L76)
+Defined in: [section/Header.ts:76](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L76)
 
 ***
 
@@ -566,7 +566,7 @@ Defined in: [section/Header.ts:76](https://github.com/cokolele/terraria-world-fi
 
 > **invasionX**: `number`
 
-Defined in: [section/Header.ts:77](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L77)
+Defined in: [section/Header.ts:77](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L77)
 
 ***
 
@@ -574,7 +574,7 @@ Defined in: [section/Header.ts:77](https://github.com/cokolele/terraria-world-fi
 
 > **jungleBackStyle**: `number`
 
-Defined in: [section/Header.ts:36](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L36)
+Defined in: [section/Header.ts:36](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L36)
 
 ***
 
@@ -582,7 +582,7 @@ Defined in: [section/Header.ts:36](https://github.com/cokolele/terraria-world-fi
 
 > **killCount**: `number`[]
 
-Defined in: [section/Header.ts:105](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L105)
+Defined in: [section/Header.ts:105](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L105)
 
 ***
 
@@ -590,7 +590,7 @@ Defined in: [section/Header.ts:105](https://github.com/cokolele/terraria-world-f
 
 > **lanternNightCooldown**: `number`
 
-Defined in: [section/Header.ts:143](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L143)
+Defined in: [section/Header.ts:143](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L143)
 
 ***
 
@@ -598,7 +598,7 @@ Defined in: [section/Header.ts:143](https://github.com/cokolele/terraria-world-f
 
 > **lanternNightGenuine**: `boolean`
 
-Defined in: [section/Header.ts:144](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L144)
+Defined in: [section/Header.ts:144](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L144)
 
 ***
 
@@ -606,7 +606,7 @@ Defined in: [section/Header.ts:144](https://github.com/cokolele/terraria-world-f
 
 > **lanternNightManual**: `boolean`
 
-Defined in: [section/Header.ts:145](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L145)
+Defined in: [section/Header.ts:145](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L145)
 
 ***
 
@@ -614,7 +614,7 @@ Defined in: [section/Header.ts:145](https://github.com/cokolele/terraria-world-f
 
 > **lanternNightNextNightIsGenuine**: `boolean`
 
-Defined in: [section/Header.ts:146](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L146)
+Defined in: [section/Header.ts:146](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L146)
 
 ***
 
@@ -622,7 +622,7 @@ Defined in: [section/Header.ts:146](https://github.com/cokolele/terraria-world-f
 
 > **leftWorld**: `number`
 
-Defined in: [section/Header.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L13)
+Defined in: [section/Header.ts:13](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L13)
 
 ***
 
@@ -630,7 +630,7 @@ Defined in: [section/Header.ts:13](https://github.com/cokolele/terraria-world-fi
 
 > **LunarApocalypseIsUp**: `boolean`
 
-Defined in: [section/Header.ts:124](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L124)
+Defined in: [section/Header.ts:124](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L124)
 
 ***
 
@@ -638,7 +638,7 @@ Defined in: [section/Header.ts:124](https://github.com/cokolele/terraria-world-f
 
 > **mapName**: `string`
 
-Defined in: [section/Header.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L8)
+Defined in: [section/Header.ts:8](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L8)
 
 ***
 
@@ -646,7 +646,7 @@ Defined in: [section/Header.ts:8](https://github.com/cokolele/terraria-world-fil
 
 > **maxTilesX**: `number`
 
-Defined in: [section/Header.ts:18](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L18)
+Defined in: [section/Header.ts:18](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L18)
 
 ***
 
@@ -654,7 +654,7 @@ Defined in: [section/Header.ts:18](https://github.com/cokolele/terraria-world-fi
 
 > **maxTilesY**: `number`
 
-Defined in: [section/Header.ts:17](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L17)
+Defined in: [section/Header.ts:17](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L17)
 
 ***
 
@@ -662,7 +662,7 @@ Defined in: [section/Header.ts:17](https://github.com/cokolele/terraria-world-fi
 
 > **moondialCooldown**: `number`
 
-Defined in: [section/Header.ts:179](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L179)
+Defined in: [section/Header.ts:179](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L179)
 
 ***
 
@@ -670,7 +670,7 @@ Defined in: [section/Header.ts:179](https://github.com/cokolele/terraria-world-f
 
 > **moonType**: `number`
 
-Defined in: [section/Header.ts:30](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L30)
+Defined in: [section/Header.ts:30](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L30)
 
 ***
 
@@ -678,7 +678,7 @@ Defined in: [section/Header.ts:30](https://github.com/cokolele/terraria-world-fi
 
 > **noTrapsWorld**: `boolean`
 
-Defined in: [section/Header.ts:26](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L26)
+Defined in: [section/Header.ts:26](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L26)
 
 ***
 
@@ -686,7 +686,7 @@ Defined in: [section/Header.ts:26](https://github.com/cokolele/terraria-world-fi
 
 > **notTheBeesWorld**: `boolean`
 
-Defined in: [section/Header.ts:24](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L24)
+Defined in: [section/Header.ts:24](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L24)
 
 ***
 
@@ -694,7 +694,7 @@ Defined in: [section/Header.ts:24](https://github.com/cokolele/terraria-world-fi
 
 > **numClouds**: `number`
 
-Defined in: [section/Header.ts:95](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L95)
+Defined in: [section/Header.ts:95](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L95)
 
 ***
 
@@ -702,7 +702,7 @@ Defined in: [section/Header.ts:95](https://github.com/cokolele/terraria-world-fi
 
 > **oreTier1**: `number`
 
-Defined in: [section/Header.ts:83](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L83)
+Defined in: [section/Header.ts:83](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L83)
 
 ***
 
@@ -710,7 +710,7 @@ Defined in: [section/Header.ts:83](https://github.com/cokolele/terraria-world-fi
 
 > **oreTier2**: `number`
 
-Defined in: [section/Header.ts:84](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L84)
+Defined in: [section/Header.ts:84](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L84)
 
 ***
 
@@ -718,7 +718,7 @@ Defined in: [section/Header.ts:84](https://github.com/cokolele/terraria-world-fi
 
 > **oreTier3**: `number`
 
-Defined in: [section/Header.ts:85](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L85)
+Defined in: [section/Header.ts:85](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L85)
 
 ***
 
@@ -726,7 +726,7 @@ Defined in: [section/Header.ts:85](https://github.com/cokolele/terraria-world-fi
 
 > **peddlersSatchelWasUsed**: `boolean`
 
-Defined in: [section/Header.ts:170](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L170)
+Defined in: [section/Header.ts:170](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L170)
 
 ***
 
@@ -734,7 +734,7 @@ Defined in: [section/Header.ts:170](https://github.com/cokolele/terraria-world-f
 
 > **remixWorld**: `boolean`
 
-Defined in: [section/Header.ts:25](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L25)
+Defined in: [section/Header.ts:25](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L25)
 
 ***
 
@@ -742,7 +742,7 @@ Defined in: [section/Header.ts:25](https://github.com/cokolele/terraria-world-fi
 
 > **rightWorld**: `number`
 
-Defined in: [section/Header.ts:14](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L14)
+Defined in: [section/Header.ts:14](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L14)
 
 ***
 
@@ -750,7 +750,7 @@ Defined in: [section/Header.ts:14](https://github.com/cokolele/terraria-world-fi
 
 > **rockLayer**: `number`
 
-Defined in: [section/Header.ts:41](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L41)
+Defined in: [section/Header.ts:41](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L41)
 
 ***
 
@@ -758,7 +758,7 @@ Defined in: [section/Header.ts:41](https://github.com/cokolele/terraria-world-fi
 
 > **savedAngler**: `boolean`
 
-Defined in: [section/Header.ts:98](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L98)
+Defined in: [section/Header.ts:98](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L98)
 
 ***
 
@@ -766,7 +766,7 @@ Defined in: [section/Header.ts:98](https://github.com/cokolele/terraria-world-fi
 
 > **savedBartender**: `boolean`
 
-Defined in: [section/Header.ts:133](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L133)
+Defined in: [section/Header.ts:133](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L133)
 
 ***
 
@@ -774,7 +774,7 @@ Defined in: [section/Header.ts:133](https://github.com/cokolele/terraria-world-f
 
 > **savedGoblin**: `boolean`
 
-Defined in: [section/Header.ts:61](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L61)
+Defined in: [section/Header.ts:61](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L61)
 
 ***
 
@@ -782,7 +782,7 @@ Defined in: [section/Header.ts:61](https://github.com/cokolele/terraria-world-fi
 
 > **savedGolfer**: `boolean`
 
-Defined in: [section/Header.ts:102](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L102)
+Defined in: [section/Header.ts:102](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L102)
 
 ***
 
@@ -790,7 +790,7 @@ Defined in: [section/Header.ts:102](https://github.com/cokolele/terraria-world-f
 
 > **savedMech**: `boolean`
 
-Defined in: [section/Header.ts:63](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L63)
+Defined in: [section/Header.ts:63](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L63)
 
 ***
 
@@ -798,7 +798,7 @@ Defined in: [section/Header.ts:63](https://github.com/cokolele/terraria-world-fi
 
 > **savedOreTierCopper**: `number`
 
-Defined in: [section/Header.ts:150](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L150)
+Defined in: [section/Header.ts:150](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L150)
 
 ***
 
@@ -806,7 +806,7 @@ Defined in: [section/Header.ts:150](https://github.com/cokolele/terraria-world-f
 
 > **savedOreTierGold**: `number`
 
-Defined in: [section/Header.ts:153](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L153)
+Defined in: [section/Header.ts:153](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L153)
 
 ***
 
@@ -814,7 +814,7 @@ Defined in: [section/Header.ts:153](https://github.com/cokolele/terraria-world-f
 
 > **savedOreTierIron**: `number`
 
-Defined in: [section/Header.ts:151](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L151)
+Defined in: [section/Header.ts:151](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L151)
 
 ***
 
@@ -822,7 +822,7 @@ Defined in: [section/Header.ts:151](https://github.com/cokolele/terraria-world-f
 
 > **savedOreTierSilver**: `number`
 
-Defined in: [section/Header.ts:152](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L152)
+Defined in: [section/Header.ts:152](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L152)
 
 ***
 
@@ -830,7 +830,7 @@ Defined in: [section/Header.ts:152](https://github.com/cokolele/terraria-world-f
 
 > **savedStylist**: `boolean`
 
-Defined in: [section/Header.ts:100](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L100)
+Defined in: [section/Header.ts:100](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L100)
 
 ***
 
@@ -838,7 +838,7 @@ Defined in: [section/Header.ts:100](https://github.com/cokolele/terraria-world-f
 
 > **savedTaxCollector**: `boolean`
 
-Defined in: [section/Header.ts:101](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L101)
+Defined in: [section/Header.ts:101](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L101)
 
 ***
 
@@ -846,7 +846,7 @@ Defined in: [section/Header.ts:101](https://github.com/cokolele/terraria-world-f
 
 > **savedWizard**: `boolean`
 
-Defined in: [section/Header.ts:62](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L62)
+Defined in: [section/Header.ts:62](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L62)
 
 ***
 
@@ -854,7 +854,7 @@ Defined in: [section/Header.ts:62](https://github.com/cokolele/terraria-world-fi
 
 > **seedText**: `string`
 
-Defined in: [section/Header.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L9)
+Defined in: [section/Header.ts:9](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L9)
 
 ***
 
@@ -862,7 +862,7 @@ Defined in: [section/Header.ts:9](https://github.com/cokolele/terraria-world-fil
 
 > **setBG0**: `number`
 
-Defined in: [section/Header.ts:86](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L86)
+Defined in: [section/Header.ts:86](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L86)
 
 ***
 
@@ -870,7 +870,7 @@ Defined in: [section/Header.ts:86](https://github.com/cokolele/terraria-world-fi
 
 > **setBG1**: `number`
 
-Defined in: [section/Header.ts:87](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L87)
+Defined in: [section/Header.ts:87](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L87)
 
 ***
 
@@ -878,7 +878,7 @@ Defined in: [section/Header.ts:87](https://github.com/cokolele/terraria-world-fi
 
 > **setBG10**: `number`
 
-Defined in: [section/Header.ts:139](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L139)
+Defined in: [section/Header.ts:139](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L139)
 
 ***
 
@@ -886,7 +886,7 @@ Defined in: [section/Header.ts:139](https://github.com/cokolele/terraria-world-f
 
 > **setBG11**: `number`
 
-Defined in: [section/Header.ts:140](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L140)
+Defined in: [section/Header.ts:140](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L140)
 
 ***
 
@@ -894,7 +894,7 @@ Defined in: [section/Header.ts:140](https://github.com/cokolele/terraria-world-f
 
 > **setBG12**: `number`
 
-Defined in: [section/Header.ts:141](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L141)
+Defined in: [section/Header.ts:141](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L141)
 
 ***
 
@@ -902,7 +902,7 @@ Defined in: [section/Header.ts:141](https://github.com/cokolele/terraria-world-f
 
 > **setBG2**: `number`
 
-Defined in: [section/Header.ts:88](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L88)
+Defined in: [section/Header.ts:88](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L88)
 
 ***
 
@@ -910,7 +910,7 @@ Defined in: [section/Header.ts:88](https://github.com/cokolele/terraria-world-fi
 
 > **setBG3**: `number`
 
-Defined in: [section/Header.ts:89](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L89)
+Defined in: [section/Header.ts:89](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L89)
 
 ***
 
@@ -918,7 +918,7 @@ Defined in: [section/Header.ts:89](https://github.com/cokolele/terraria-world-fi
 
 > **setBG4**: `number`
 
-Defined in: [section/Header.ts:90](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L90)
+Defined in: [section/Header.ts:90](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L90)
 
 ***
 
@@ -926,7 +926,7 @@ Defined in: [section/Header.ts:90](https://github.com/cokolele/terraria-world-fi
 
 > **setBG5**: `number`
 
-Defined in: [section/Header.ts:91](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L91)
+Defined in: [section/Header.ts:91](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L91)
 
 ***
 
@@ -934,7 +934,7 @@ Defined in: [section/Header.ts:91](https://github.com/cokolele/terraria-world-fi
 
 > **setBG6**: `number`
 
-Defined in: [section/Header.ts:92](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L92)
+Defined in: [section/Header.ts:92](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L92)
 
 ***
 
@@ -942,7 +942,7 @@ Defined in: [section/Header.ts:92](https://github.com/cokolele/terraria-world-fi
 
 > **setBG7**: `number`
 
-Defined in: [section/Header.ts:93](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L93)
+Defined in: [section/Header.ts:93](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L93)
 
 ***
 
@@ -950,7 +950,7 @@ Defined in: [section/Header.ts:93](https://github.com/cokolele/terraria-world-fi
 
 > **setBG8**: `number`
 
-Defined in: [section/Header.ts:137](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L137)
+Defined in: [section/Header.ts:137](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L137)
 
 ***
 
@@ -958,7 +958,7 @@ Defined in: [section/Header.ts:137](https://github.com/cokolele/terraria-world-f
 
 > **setBG9**: `number`
 
-Defined in: [section/Header.ts:138](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L138)
+Defined in: [section/Header.ts:138](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L138)
 
 ***
 
@@ -966,7 +966,7 @@ Defined in: [section/Header.ts:138](https://github.com/cokolele/terraria-world-f
 
 > **shadowOrbCount**: `number`
 
-Defined in: [section/Header.ts:70](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L70)
+Defined in: [section/Header.ts:70](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L70)
 
 ***
 
@@ -974,7 +974,7 @@ Defined in: [section/Header.ts:70](https://github.com/cokolele/terraria-world-fi
 
 > **shadowOrbSmashed**: `boolean`
 
-Defined in: [section/Header.ts:68](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L68)
+Defined in: [section/Header.ts:68](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L68)
 
 ***
 
@@ -982,7 +982,7 @@ Defined in: [section/Header.ts:68](https://github.com/cokolele/terraria-world-fi
 
 > **slimeRainTime**: `number`
 
-Defined in: [section/Header.ts:78](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L78)
+Defined in: [section/Header.ts:78](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L78)
 
 ***
 
@@ -990,7 +990,7 @@ Defined in: [section/Header.ts:78](https://github.com/cokolele/terraria-world-fi
 
 > **spawnMeteor**: `boolean`
 
-Defined in: [section/Header.ts:69](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L69)
+Defined in: [section/Header.ts:69](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L69)
 
 ***
 
@@ -998,7 +998,7 @@ Defined in: [section/Header.ts:69](https://github.com/cokolele/terraria-world-fi
 
 > **spawnTileX**: `number`
 
-Defined in: [section/Header.ts:38](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L38)
+Defined in: [section/Header.ts:38](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L38)
 
 ***
 
@@ -1006,7 +1006,7 @@ Defined in: [section/Header.ts:38](https://github.com/cokolele/terraria-world-fi
 
 > **spawnTileY**: `number`
 
-Defined in: [section/Header.ts:39](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L39)
+Defined in: [section/Header.ts:39](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L39)
 
 ***
 
@@ -1014,7 +1014,7 @@ Defined in: [section/Header.ts:39](https://github.com/cokolele/terraria-world-fi
 
 > **sundialCooldown**: `number`
 
-Defined in: [section/Header.ts:79](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L79)
+Defined in: [section/Header.ts:79](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L79)
 
 ***
 
@@ -1022,7 +1022,7 @@ Defined in: [section/Header.ts:79](https://github.com/cokolele/terraria-world-fi
 
 > **Temp\_Sandstorm\_Happening**: `boolean`
 
-Defined in: [section/Header.ts:129](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L129)
+Defined in: [section/Header.ts:129](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L129)
 
 ***
 
@@ -1030,7 +1030,7 @@ Defined in: [section/Header.ts:129](https://github.com/cokolele/terraria-world-f
 
 > **Temp\_Sandstorm\_IntendedSeverity**: `number`
 
-Defined in: [section/Header.ts:132](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L132)
+Defined in: [section/Header.ts:132](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L132)
 
 ***
 
@@ -1038,7 +1038,7 @@ Defined in: [section/Header.ts:132](https://github.com/cokolele/terraria-world-f
 
 > **Temp\_Sandstorm\_Severity**: `number`
 
-Defined in: [section/Header.ts:131](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L131)
+Defined in: [section/Header.ts:131](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L131)
 
 ***
 
@@ -1046,7 +1046,7 @@ Defined in: [section/Header.ts:131](https://github.com/cokolele/terraria-world-f
 
 > **Temp\_Sandstorm\_TimeLeft**: `number`
 
-Defined in: [section/Header.ts:130](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L130)
+Defined in: [section/Header.ts:130](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L130)
 
 ***
 
@@ -1054,7 +1054,7 @@ Defined in: [section/Header.ts:130](https://github.com/cokolele/terraria-world-f
 
 > **tempBloodMoon**: `boolean`
 
-Defined in: [section/Header.ts:45](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L45)
+Defined in: [section/Header.ts:45](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L45)
 
 ***
 
@@ -1062,7 +1062,7 @@ Defined in: [section/Header.ts:45](https://github.com/cokolele/terraria-world-fi
 
 > **tempCultistDelay**: `number`
 
-Defined in: [section/Header.ts:104](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L104)
+Defined in: [section/Header.ts:104](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L104)
 
 ***
 
@@ -1070,7 +1070,7 @@ Defined in: [section/Header.ts:104](https://github.com/cokolele/terraria-world-f
 
 > **tempDayTime**: `boolean`
 
-Defined in: [section/Header.ts:43](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L43)
+Defined in: [section/Header.ts:43](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L43)
 
 ***
 
@@ -1078,7 +1078,7 @@ Defined in: [section/Header.ts:43](https://github.com/cokolele/terraria-world-fi
 
 > **tempEclipse**: `boolean`
 
-Defined in: [section/Header.ts:46](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L46)
+Defined in: [section/Header.ts:46](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L46)
 
 ***
 
@@ -1086,7 +1086,7 @@ Defined in: [section/Header.ts:46](https://github.com/cokolele/terraria-world-fi
 
 > **tempMaxRain**: `number`
 
-Defined in: [section/Header.ts:82](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L82)
+Defined in: [section/Header.ts:82](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L82)
 
 ***
 
@@ -1094,7 +1094,7 @@ Defined in: [section/Header.ts:82](https://github.com/cokolele/terraria-world-fi
 
 > **tempMoonPhase**: `number`
 
-Defined in: [section/Header.ts:44](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L44)
+Defined in: [section/Header.ts:44](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L44)
 
 ***
 
@@ -1102,7 +1102,7 @@ Defined in: [section/Header.ts:44](https://github.com/cokolele/terraria-world-fi
 
 > **tempPartyCelebratingNPCs**: `number`[]
 
-Defined in: [section/Header.ts:128](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L128)
+Defined in: [section/Header.ts:128](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L128)
 
 ***
 
@@ -1110,7 +1110,7 @@ Defined in: [section/Header.ts:128](https://github.com/cokolele/terraria-world-f
 
 > **tempPartyCooldown**: `number`
 
-Defined in: [section/Header.ts:127](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L127)
+Defined in: [section/Header.ts:127](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L127)
 
 ***
 
@@ -1118,7 +1118,7 @@ Defined in: [section/Header.ts:127](https://github.com/cokolele/terraria-world-f
 
 > **tempPartyGenuine**: `boolean`
 
-Defined in: [section/Header.ts:126](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L126)
+Defined in: [section/Header.ts:126](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L126)
 
 ***
 
@@ -1126,7 +1126,7 @@ Defined in: [section/Header.ts:126](https://github.com/cokolele/terraria-world-f
 
 > **tempPartyManual**: `boolean`
 
-Defined in: [section/Header.ts:125](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L125)
+Defined in: [section/Header.ts:125](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L125)
 
 ***
 
@@ -1134,7 +1134,7 @@ Defined in: [section/Header.ts:125](https://github.com/cokolele/terraria-world-f
 
 > **tempRaining**: `boolean`
 
-Defined in: [section/Header.ts:80](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L80)
+Defined in: [section/Header.ts:80](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L80)
 
 ***
 
@@ -1142,7 +1142,7 @@ Defined in: [section/Header.ts:80](https://github.com/cokolele/terraria-world-fi
 
 > **tempRainTime**: `number`
 
-Defined in: [section/Header.ts:81](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L81)
+Defined in: [section/Header.ts:81](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L81)
 
 ***
 
@@ -1150,7 +1150,7 @@ Defined in: [section/Header.ts:81](https://github.com/cokolele/terraria-world-fi
 
 > **tempTime**: `number`
 
-Defined in: [section/Header.ts:42](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L42)
+Defined in: [section/Header.ts:42](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L42)
 
 ***
 
@@ -1158,7 +1158,7 @@ Defined in: [section/Header.ts:42](https://github.com/cokolele/terraria-world-fi
 
 > **topWorld**: `number`
 
-Defined in: [section/Header.ts:15](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L15)
+Defined in: [section/Header.ts:15](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L15)
 
 ***
 
@@ -1166,7 +1166,7 @@ Defined in: [section/Header.ts:15](https://github.com/cokolele/terraria-world-fi
 
 > **TowerActiveNebula**: `boolean`
 
-Defined in: [section/Header.ts:122](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L122)
+Defined in: [section/Header.ts:122](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L122)
 
 ***
 
@@ -1174,7 +1174,7 @@ Defined in: [section/Header.ts:122](https://github.com/cokolele/terraria-world-f
 
 > **TowerActiveSolar**: `boolean`
 
-Defined in: [section/Header.ts:120](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L120)
+Defined in: [section/Header.ts:120](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L120)
 
 ***
 
@@ -1182,7 +1182,7 @@ Defined in: [section/Header.ts:120](https://github.com/cokolele/terraria-world-f
 
 > **TowerActiveStardust**: `boolean`
 
-Defined in: [section/Header.ts:123](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L123)
+Defined in: [section/Header.ts:123](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L123)
 
 ***
 
@@ -1190,7 +1190,7 @@ Defined in: [section/Header.ts:123](https://github.com/cokolele/terraria-world-f
 
 > **TowerActiveVortex**: `boolean`
 
-Defined in: [section/Header.ts:121](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L121)
+Defined in: [section/Header.ts:121](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L121)
 
 ***
 
@@ -1198,7 +1198,7 @@ Defined in: [section/Header.ts:121](https://github.com/cokolele/terraria-world-f
 
 > **treeStyle**: \[`number`, `number`, `number`, `number`\]
 
-Defined in: [section/Header.ts:32](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L32)
+Defined in: [section/Header.ts:32](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L32)
 
 ***
 
@@ -1206,7 +1206,7 @@ Defined in: [section/Header.ts:32](https://github.com/cokolele/terraria-world-fi
 
 > **treeTopsVariations**: `number`[]
 
-Defined in: [section/Header.ts:147](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L147)
+Defined in: [section/Header.ts:147](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L147)
 
 ***
 
@@ -1214,7 +1214,7 @@ Defined in: [section/Header.ts:147](https://github.com/cokolele/terraria-world-f
 
 > **treeX**: \[`number`, `number`, `number`\]
 
-Defined in: [section/Header.ts:31](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L31)
+Defined in: [section/Header.ts:31](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L31)
 
 ***
 
@@ -1222,7 +1222,7 @@ Defined in: [section/Header.ts:31](https://github.com/cokolele/terraria-world-fi
 
 > **unlockedArmsDealerSpawn**: `boolean`
 
-Defined in: [section/Header.ts:166](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L166)
+Defined in: [section/Header.ts:166](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L166)
 
 ***
 
@@ -1230,7 +1230,7 @@ Defined in: [section/Header.ts:166](https://github.com/cokolele/terraria-world-f
 
 > **unlockedDemolitionistSpawn**: `boolean`
 
-Defined in: [section/Header.ts:162](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L162)
+Defined in: [section/Header.ts:162](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L162)
 
 ***
 
@@ -1238,7 +1238,7 @@ Defined in: [section/Header.ts:162](https://github.com/cokolele/terraria-world-f
 
 > **unlockedDyeTraderSpawn**: `boolean`
 
-Defined in: [section/Header.ts:164](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L164)
+Defined in: [section/Header.ts:164](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L164)
 
 ***
 
@@ -1246,7 +1246,7 @@ Defined in: [section/Header.ts:164](https://github.com/cokolele/terraria-world-f
 
 > **unlockedMerchantSpawn**: `boolean`
 
-Defined in: [section/Header.ts:161](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L161)
+Defined in: [section/Header.ts:161](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L161)
 
 ***
 
@@ -1254,7 +1254,7 @@ Defined in: [section/Header.ts:161](https://github.com/cokolele/terraria-world-f
 
 > **unlockedNurseSpawn**: `boolean`
 
-Defined in: [section/Header.ts:167](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L167)
+Defined in: [section/Header.ts:167](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L167)
 
 ***
 
@@ -1262,7 +1262,7 @@ Defined in: [section/Header.ts:167](https://github.com/cokolele/terraria-world-f
 
 > **unlockedPartyGirlSpawn**: `boolean`
 
-Defined in: [section/Header.ts:163](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L163)
+Defined in: [section/Header.ts:163](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L163)
 
 ***
 
@@ -1270,7 +1270,7 @@ Defined in: [section/Header.ts:163](https://github.com/cokolele/terraria-world-f
 
 > **unlockedPrincessSpawn**: `boolean`
 
-Defined in: [section/Header.ts:168](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L168)
+Defined in: [section/Header.ts:168](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L168)
 
 ***
 
@@ -1278,7 +1278,7 @@ Defined in: [section/Header.ts:168](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimeBlueSpawn**: `boolean`
 
-Defined in: [section/Header.ts:160](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L160)
+Defined in: [section/Header.ts:160](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L160)
 
 ***
 
@@ -1286,7 +1286,7 @@ Defined in: [section/Header.ts:160](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimeCopperSpawn**: `boolean`
 
-Defined in: [section/Header.ts:177](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L177)
+Defined in: [section/Header.ts:177](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L177)
 
 ***
 
@@ -1294,7 +1294,7 @@ Defined in: [section/Header.ts:177](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimeGreenSpawn**: `boolean`
 
-Defined in: [section/Header.ts:171](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L171)
+Defined in: [section/Header.ts:171](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L171)
 
 ***
 
@@ -1302,7 +1302,7 @@ Defined in: [section/Header.ts:171](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimeOldSpawn**: `boolean`
 
-Defined in: [section/Header.ts:172](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L172)
+Defined in: [section/Header.ts:172](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L172)
 
 ***
 
@@ -1310,7 +1310,7 @@ Defined in: [section/Header.ts:172](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimePurpleSpawn**: `boolean`
 
-Defined in: [section/Header.ts:173](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L173)
+Defined in: [section/Header.ts:173](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L173)
 
 ***
 
@@ -1318,7 +1318,7 @@ Defined in: [section/Header.ts:173](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimeRainbowSpawn**: `boolean`
 
-Defined in: [section/Header.ts:174](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L174)
+Defined in: [section/Header.ts:174](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L174)
 
 ***
 
@@ -1326,7 +1326,7 @@ Defined in: [section/Header.ts:174](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimeRedSpawn**: `boolean`
 
-Defined in: [section/Header.ts:175](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L175)
+Defined in: [section/Header.ts:175](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L175)
 
 ***
 
@@ -1334,7 +1334,7 @@ Defined in: [section/Header.ts:175](https://github.com/cokolele/terraria-world-f
 
 > **unlockedSlimeYellowSpawn**: `boolean`
 
-Defined in: [section/Header.ts:176](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L176)
+Defined in: [section/Header.ts:176](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L176)
 
 ***
 
@@ -1342,7 +1342,7 @@ Defined in: [section/Header.ts:176](https://github.com/cokolele/terraria-world-f
 
 > **unlockedTruffleSpawn**: `boolean`
 
-Defined in: [section/Header.ts:165](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L165)
+Defined in: [section/Header.ts:165](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L165)
 
 ***
 
@@ -1350,7 +1350,7 @@ Defined in: [section/Header.ts:165](https://github.com/cokolele/terraria-world-f
 
 > **windSpeed**: `number`
 
-Defined in: [section/Header.ts:96](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L96)
+Defined in: [section/Header.ts:96](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L96)
 
 ***
 
@@ -1358,7 +1358,7 @@ Defined in: [section/Header.ts:96](https://github.com/cokolele/terraria-world-fi
 
 > **worldGeneratorVersion**: `Uint8Array`\<`ArrayBuffer`\>
 
-Defined in: [section/Header.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L10)
+Defined in: [section/Header.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L10)
 
 ***
 
@@ -1366,7 +1366,7 @@ Defined in: [section/Header.ts:10](https://github.com/cokolele/terraria-world-fi
 
 > **worldId**: `number`
 
-Defined in: [section/Header.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L12)
+Defined in: [section/Header.ts:12](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L12)
 
 ***
 
@@ -1374,7 +1374,7 @@ Defined in: [section/Header.ts:12](https://github.com/cokolele/terraria-world-fi
 
 > **worldSurface**: `number`
 
-Defined in: [section/Header.ts:40](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L40)
+Defined in: [section/Header.ts:40](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L40)
 
 ***
 
@@ -1382,4 +1382,4 @@ Defined in: [section/Header.ts:40](https://github.com/cokolele/terraria-world-fi
 
 > **zenithWorld**: `boolean`
 
-Defined in: [section/Header.ts:27](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/section/Header.ts#L27)
+Defined in: [section/Header.ts:27](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/section/Header.ts#L27)

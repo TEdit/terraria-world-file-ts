@@ -6,7 +6,7 @@
 
 # Enumeration: DisplayDollSlot
 
-Defined in: [types.ts:136](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L136)
+Defined in: [types.ts:136](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L136)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:136](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Acc\_1**: `3`
 
-Defined in: [types.ts:140](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L140)
+Defined in: [types.ts:140](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L140)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:140](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Acc\_2**: `4`
 
-Defined in: [types.ts:141](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L141)
+Defined in: [types.ts:141](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L141)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:141](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Acc\_3**: `5`
 
-Defined in: [types.ts:142](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L142)
+Defined in: [types.ts:142](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L142)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:142](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Acc\_4**: `6`
 
-Defined in: [types.ts:143](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L143)
+Defined in: [types.ts:143](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L143)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:143](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Acc\_5**: `7`
 
-Defined in: [types.ts:144](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L144)
+Defined in: [types.ts:144](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L144)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types.ts:144](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Armor\_Head**: `0`
 
-Defined in: [types.ts:137](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L137)
+Defined in: [types.ts:137](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L137)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types.ts:137](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Armor\_Legs**: `2`
 
-Defined in: [types.ts:139](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L139)
+Defined in: [types.ts:139](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L139)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: [types.ts:139](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **Armor\_Shirt**: `1`
 
-Defined in: [types.ts:138](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L138)
+Defined in: [types.ts:138](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L138)

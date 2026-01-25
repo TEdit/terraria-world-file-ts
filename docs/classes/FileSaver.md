@@ -6,7 +6,7 @@
 
 # Class: FileSaver
 
-Defined in: [FileSaver.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/FileSaver.ts#L7)
+Defined in: [FileSaver.ts:7](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/FileSaver.ts#L7)
 
 ## Constructors
 
@@ -24,7 +24,7 @@ Defined in: [FileSaver.ts:7](https://github.com/cokolele/terraria-world-file-ts/
 
 > **save**(`world`, `progressCallback?`): `ArrayBuffer`
 
-Defined in: [FileSaver.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/FileSaver.ts#L10)
+Defined in: [FileSaver.ts:10](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/FileSaver.ts#L10)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Enumeration: TileEntityType
 
-Defined in: [types.ts:94](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L94)
+Defined in: [types.ts:94](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L94)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:94](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **DisplayDoll**: `3`
 
-Defined in: [types.ts:98](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L98)
+Defined in: [types.ts:98](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L98)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:98](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **FoodPlatter**: `6`
 
-Defined in: [types.ts:101](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L101)
+Defined in: [types.ts:101](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L101)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:101](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **HatRack**: `5`
 
-Defined in: [types.ts:100](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L100)
+Defined in: [types.ts:100](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L100)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:100](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **ItemFrame**: `1`
 
-Defined in: [types.ts:96](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L96)
+Defined in: [types.ts:96](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L96)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:96](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **LogicSensor**: `2`
 
-Defined in: [types.ts:97](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L97)
+Defined in: [types.ts:97](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L97)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types.ts:97](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **Pylon**: `7`
 
-Defined in: [types.ts:102](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L102)
+Defined in: [types.ts:102](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L102)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types.ts:102](https://github.com/cokolele/terraria-world-file-ts/bl
 
 > **TrainingDummy**: `0`
 
-Defined in: [types.ts:95](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L95)
+Defined in: [types.ts:95](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L95)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: [types.ts:95](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **WeaponsRack**: `4`
 
-Defined in: [types.ts:99](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L99)
+Defined in: [types.ts:99](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L99)

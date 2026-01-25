@@ -6,7 +6,7 @@
 
 # Enumeration: Slope
 
-Defined in: [types.ts:30](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L30)
+Defined in: [types.ts:30](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L30)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:30](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **BL**: `5`
 
-Defined in: [types.ts:35](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L35)
+Defined in: [types.ts:35](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L35)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:35](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **BR**: `4`
 
-Defined in: [types.ts:34](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L34)
+Defined in: [types.ts:34](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L34)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:34](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **Half**: `1`
 
-Defined in: [types.ts:31](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L31)
+Defined in: [types.ts:31](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L31)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:31](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **TL**: `3`
 
-Defined in: [types.ts:33](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L33)
+Defined in: [types.ts:33](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L33)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types.ts:33](https://github.com/cokolele/terraria-world-file-ts/blo
 
 > **TR**: `2`
 
-Defined in: [types.ts:32](https://github.com/cokolele/terraria-world-file-ts/blob/c9d6db6f268595de1f724cc85f2bcb33cfa7d811/src/types.ts#L32)
+Defined in: [types.ts:32](https://github.com/cokolele/terraria-world-file-ts/blob/f9c03bfd42a2460ea023189ad9137d558debc939/src/types.ts#L32)
