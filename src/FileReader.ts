@@ -46,10 +46,10 @@ export default class FileReader {
     this.reader.progressCallback = options.progressCallback ?? this.defaultOptions.progressCallback
   }
 
-  public async loadFile(loader: (path: string) => Promise<ArrayBuffer>, path: string): Promise<this> {
-    this.reader = new BinaryReader().loadBuffer(await loader(path))
-
-    return this
+  public async loadFile(loader: (file: File | Blob) => Promise<ArrayBuffer>, file: File | Blob): Promise<this>
+  public async loadFile(loader: (path: string) => Promise<ArrayBuffer>, file: string): Promise<this>
+  public async loadFile(loader: (arg: any) => Promise<ArrayBuffer>, file: any): Promise<this> {
+    return this.loadBuffer(await loader(file))
   }
 
   public async loadBuffer(buffer: ArrayBuffer): Promise<this> {
