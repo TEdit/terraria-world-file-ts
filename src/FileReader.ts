@@ -64,26 +64,29 @@ export default class FileReader {
 
     let data = {} as SelectedDataMap<T>
 
+    let pointerIndex = 0
     for (let [sectionName, sectionIO] of Object.entries(sections) as [T[number], Section.IO<T[number]>][]) {
-      if (
-        !this.selectedSections.includes(sectionName) ||
-        (world.version < 225 && ['bestiary', 'creativePowers'].includes(sectionName))
-      ) {
+      if (world.version < 225 && ['bestiary', 'creativePowers'].includes(sectionName)) {
         continue
       }
 
-      const sectionIndex = Object.keys(sections).indexOf(sectionName)
+      if (!this.selectedSections.includes(sectionName)) {
+        pointerIndex++
+        continue
+      }
 
-      this.reader.jumpTo(world.pointers[sectionIndex])
+      this.reader.jumpTo(world.pointers[pointerIndex])
       data[sectionName] = sectionIO.parse(this.reader, world)
 
       if (
         !this.ignorePointers &&
-        this.reader.getPosition() != world.pointers[sectionIndex + 1] &&
+        this.reader.getPosition() != world.pointers[pointerIndex + 1] &&
         !this.reader.isFinished()
       ) {
         throw new TerrariaWorldFileError(`Section ${sectionName} parsing ended at wrong point`)
       }
+
+      pointerIndex++
     }
 
     return data

@@ -59,6 +59,7 @@ export type Chest = {
   position: Position
   name?: string
   items?: ItemSlot[]
+  maxItems?: number
 }
 
 export type Sign = {
@@ -77,6 +78,7 @@ export interface TownNPC extends Pillar {
   homePosition: Position
   variationIndex?: number
   shimmered?: boolean
+  homelessDespawn?: boolean
 }
 
 export type TownRoom = {
@@ -100,6 +102,9 @@ export enum TileEntityType {
   HatRack,
   FoodPlatter,
   Pylon,
+  DeadCellsDisplayJar,
+  KiteAnchor,
+  CritterAnchor,
 }
 
 export interface TileEntityBase {
@@ -131,6 +136,8 @@ export interface DisplayDoll extends TileEntityBase {
   type: TileEntityType.DisplayDoll
   items: ItemSlot[]
   dyes: ItemSlot[]
+  pose?: number
+  misc?: ItemSlot[]
 }
 
 export enum DisplayDollSlot {
@@ -169,6 +176,21 @@ export interface Pylon extends TileEntityBase {
   type: TileEntityType.Pylon
 }
 
+export interface DeadCellsDisplayJar extends TileEntityBase {
+  type: TileEntityType.DeadCellsDisplayJar
+  item: Item
+}
+
+export interface KiteAnchor extends TileEntityBase {
+  type: TileEntityType.KiteAnchor
+  itemId: number
+}
+
+export interface CritterAnchor extends TileEntityBase {
+  type: TileEntityType.CritterAnchor
+  itemId: number
+}
+
 export type TileEntity =
   | TrainingDummy
   | ItemFrame
@@ -178,6 +200,9 @@ export type TileEntity =
   | HatRack
   | FoodPlatter
   | Pylon
+  | DeadCellsDisplayJar
+  | KiteAnchor
+  | CritterAnchor
 
 export enum CreativePowerType {
   FreezeTime = 0,

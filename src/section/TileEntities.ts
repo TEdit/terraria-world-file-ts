@@ -1,11 +1,14 @@
 import type BinaryReader from '../BinaryReader'
 import {
+  CritterAnchor,
+  DeadCellsDisplayJar,
   DisplayDoll,
   FoodPlatter,
   HatRack,
   Item,
   ItemFrame,
   ItemSlot,
+  KiteAnchor,
   LogicSensor,
   Pylon,
   TileEntity,
@@ -25,11 +28,11 @@ export class TileEntitiesData {
 export default class TileEntitiesIO implements Section.IODefinition<TileEntitiesData> {
   public parse(reader: BinaryReader, world: WorldProperties): TileEntitiesData {
     const data = new TileEntitiesData()
-    data.entities = reader.readArray(reader.readInt32(), () => this.parseEntity(reader))
+    data.entities = reader.readArray(reader.readInt32(), () => this.parseEntity(reader, world))
     return data
   }
 
-  private parseEntity(reader: BinaryReader): TileEntity {
+  private parseEntity(reader: BinaryReader, world: WorldProperties): TileEntity {
     const entity: TileEntityBase = {
       type: reader.readUInt8() as TileEntityType,
       id: reader.readInt32(),
@@ -47,7 +50,7 @@ export default class TileEntitiesIO implements Section.IODefinition<TileEntities
       case TileEntityType.LogicSensor:
         return this.parseLogicSensor(reader, entity)
       case TileEntityType.DisplayDoll:
-        return this.parseDisplayDoll(reader, entity)
+        return this.parseDisplayDoll(reader, entity, world)
       case TileEntityType.WeaponsRack:
         return this.parseWeaponsRack(reader, entity)
       case TileEntityType.HatRack:
@@ -56,6 +59,12 @@ export default class TileEntitiesIO implements Section.IODefinition<TileEntities
         return this.parseFoodPlatter(reader, entity)
       case TileEntityType.Pylon:
         return entity as Pylon
+      case TileEntityType.DeadCellsDisplayJar:
+        return this.parseDeadCellsDisplayJar(reader, entity)
+      case TileEntityType.KiteAnchor:
+        return this.parseKiteAnchor(reader, entity)
+      case TileEntityType.CritterAnchor:
+        return this.parseCritterAnchor(reader, entity)
     }
   }
 
@@ -84,16 +93,74 @@ export default class TileEntitiesIO implements Section.IODefinition<TileEntities
     }
   }
 
-  private parseDisplayDoll(reader: BinaryReader, entity: TileEntityBase): DisplayDoll {
-    const items = reader.readBits(8),
-      dyes = reader.readBits(8)
+  private parseDisplayDoll(reader: BinaryReader, entity: TileEntityBase, world: WorldProperties): DisplayDoll {
+    const itemSlotBits = reader.readBits(8)
+    const dyeSlotBits = reader.readBits(8)
 
-    return {
+    let pose: number | undefined
+    if (world.version >= 307) {
+      pose = reader.readUInt8()
+    }
+
+    let extraSlotBits = [false, false, false]
+    if (world.version >= 308) {
+      const extraByte = reader.readUInt8()
+      extraSlotBits = [Boolean(extraByte & 1), Boolean(extraByte & 2), Boolean(extraByte & 4)]
+    }
+
+    let v311ExtraItem = false
+    if (world.version === 311) {
+      v311ExtraItem = extraSlotBits[1]
+      extraSlotBits[1] = false
+    }
+
+    const maxSlots = world.version >= 308 ? 9 : 8
+
+    const items: ItemSlot[] = Array.from({ length: 9 }, () => null)
+    const dyes: ItemSlot[] = Array.from({ length: 9 }, () => null)
+    const misc: ItemSlot[] = [null]
+
+    // Read items
+    for (let i = 0; i < maxSlots; i++) {
+      const hasItem = i < 8 ? itemSlotBits[i] : extraSlotBits[1]
+      if (hasItem) {
+        items[i] = this.parseItem(reader)
+      }
+    }
+
+    // Read dyes
+    for (let i = 0; i < maxSlots; i++) {
+      const hasDye = i < 8 ? dyeSlotBits[i] : extraSlotBits[2]
+      if (hasDye) {
+        dyes[i] = this.parseItem(reader)
+      }
+    }
+
+    // Read misc items (v308+, extraSlotBits[0])
+    if (extraSlotBits[0]) {
+      misc[0] = this.parseItem(reader)
+    }
+
+    // Version 311 special bug handling
+    if (v311ExtraItem) {
+      items[8] = this.parseItem(reader)
+    }
+
+    const result: DisplayDoll = {
       ...entity,
       type: TileEntityType.DisplayDoll,
-      items: items.map((bit): ItemSlot => (bit ? this.parseItem(reader) : null)),
-      dyes: dyes.map((bit): ItemSlot => (bit ? this.parseItem(reader) : null)),
+      items,
+      dyes,
     }
+
+    if (pose !== undefined) {
+      result.pose = pose
+    }
+    if (world.version >= 308) {
+      result.misc = misc
+    }
+
+    return result
   }
 
   private parseWeaponsRack(reader: BinaryReader, entity: TileEntityBase): WeaponsRack {
@@ -124,6 +191,30 @@ export default class TileEntitiesIO implements Section.IODefinition<TileEntities
     }
   }
 
+  private parseDeadCellsDisplayJar(reader: BinaryReader, entity: TileEntityBase): DeadCellsDisplayJar {
+    return {
+      ...entity,
+      type: TileEntityType.DeadCellsDisplayJar,
+      item: this.parseItem(reader),
+    }
+  }
+
+  private parseKiteAnchor(reader: BinaryReader, entity: TileEntityBase): KiteAnchor {
+    return {
+      ...entity,
+      type: TileEntityType.KiteAnchor,
+      itemId: reader.readInt16(),
+    }
+  }
+
+  private parseCritterAnchor(reader: BinaryReader, entity: TileEntityBase): CritterAnchor {
+    return {
+      ...entity,
+      type: TileEntityType.CritterAnchor,
+      itemId: reader.readInt16(),
+    }
+  }
+
   private parseItem(reader: BinaryReader): Item {
     return {
       id: reader.readInt16(),
@@ -136,11 +227,11 @@ export default class TileEntitiesIO implements Section.IODefinition<TileEntities
     saver.saveArray(
       data.entities,
       (length) => saver.saveInt32(length),
-      (entity) => this.saveTileEntity(saver, entity),
+      (entity) => this.saveTileEntity(saver, entity, world),
     )
   }
 
-  private saveTileEntity(saver: BinarySaver, entity: TileEntity) {
+  private saveTileEntity(saver: BinarySaver, entity: TileEntity, world: WorldProperties) {
     saver.saveUInt8(entity.type)
     saver.saveInt32(entity.id)
     saver.saveInt16(entity.position.x)
@@ -160,12 +251,70 @@ export default class TileEntitiesIO implements Section.IODefinition<TileEntities
         saver.saveBoolean(entity.on)
         break
       case TileEntityType.DisplayDoll:
+        this.saveDisplayDoll(saver, entity, world)
+        break
       case TileEntityType.HatRack:
         saver.saveBits(entity.items.map((itemSlot) => itemSlot !== null))
         saver.saveBits(entity.dyes.map((itemSlot) => itemSlot !== null))
         saver.saveArray(entity.items, null, (itemSlot) => this.saveItem(saver, itemSlot))
         saver.saveArray(entity.dyes, null, (itemSlot) => this.saveItem(saver, itemSlot))
         break
+      case TileEntityType.DeadCellsDisplayJar:
+        this.saveItem(saver, entity.item)
+        break
+      case TileEntityType.CritterAnchor:
+      case TileEntityType.KiteAnchor:
+        saver.saveInt16(entity.itemId)
+        break
+    }
+  }
+
+  private saveDisplayDoll(saver: BinarySaver, entity: DisplayDoll, world: WorldProperties) {
+    // Write first 8 item slot bits
+    const itemBits = entity.items.slice(0, 8).map((s) => s !== null)
+    saver.saveBits(itemBits)
+
+    // Write first 8 dye slot bits
+    const dyeBits = entity.dyes.slice(0, 8).map((s) => s !== null)
+    saver.saveBits(dyeBits)
+
+    // v307+: pose
+    if (world.version >= 307) {
+      saver.saveUInt8(entity.pose ?? 0)
+    }
+
+    // v308+: extra slots byte
+    if (world.version >= 308) {
+      let extraByte = 0
+      if (entity.misc?.[0] !== null && entity.misc?.[0] !== undefined) extraByte |= 1
+      if (entity.items[8] !== null && entity.items[8] !== undefined) extraByte |= 2
+      if (entity.dyes[8] !== null && entity.dyes[8] !== undefined) extraByte |= 4
+      saver.saveUInt8(extraByte)
+    }
+
+    const maxSlots = world.version >= 308 ? 9 : 8
+
+    // Write item data
+    for (let i = 0; i < maxSlots; i++) {
+      if (entity.items[i] !== null && entity.items[i] !== undefined) {
+        this.saveItem(saver, entity.items[i])
+      }
+    }
+
+    // Write dye data
+    for (let i = 0; i < maxSlots; i++) {
+      if (entity.dyes[i] !== null && entity.dyes[i] !== undefined) {
+        this.saveItem(saver, entity.dyes[i])
+      }
+    }
+
+    // v308+: misc data
+    if (world.version >= 308 && entity.misc) {
+      for (let i = 0; i < entity.misc.length; i++) {
+        if (entity.misc[i] !== null && entity.misc[i] !== undefined) {
+          this.saveItem(saver, entity.misc[i])
+        }
+      }
     }
   }
 

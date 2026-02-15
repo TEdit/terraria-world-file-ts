@@ -177,6 +177,19 @@ export class HeaderData {
   public unlockedSlimeCopperSpawn!: boolean
   public fastForwardTimeToDusk!: boolean
   public moondialCooldown!: number
+  public lastPlayed!: Uint8Array<ArrayBuffer>
+  public skyblockWorld!: boolean
+  public forceHalloweenForever!: boolean
+  public forceXMasForever!: boolean
+  public vampireSeed!: boolean
+  public infectedSeed!: boolean
+  public tempMeteorShowerCount!: number
+  public tempCoinRain!: number
+  public teamBasedSpawnsSeed!: boolean
+  public teamSpawns!: { x: number; y: number }[]
+  public dualDungeonsSeed!: boolean
+  public worldManifestData!: string
+  public claimableBanners!: number[]
 }
 
 export default class HeaderIO implements Section.IODefinition<HeaderData> {
@@ -206,8 +219,10 @@ export default class HeaderIO implements Section.IODefinition<HeaderData> {
     data.remixWorld = world.version >= 249 && reader.readBoolean()
     data.noTrapsWorld = world.version >= 266 && reader.readBoolean()
     data.zenithWorld = world.version >= 267 && reader.readBoolean()
+    data.skyblockWorld = world.version >= 302 && reader.readBoolean()
     data.expertMode = !isV140 && reader.readBoolean()
     data.creationTime = reader.readBytes(8)
+    data.lastPlayed = world.version >= 284 ? reader.readBytes(8) : new Uint8Array(8)
     data.moonType = reader.readUInt8()
     data.treeX = [reader.readInt32(), reader.readInt32(), reader.readInt32()]
     data.treeStyle = [reader.readInt32(), reader.readInt32(), reader.readInt32(), reader.readInt32()]
@@ -284,6 +299,7 @@ export default class HeaderIO implements Section.IODefinition<HeaderData> {
     data.invasionSizeStart = reader.readInt32()
     data.tempCultistDelay = reader.readInt32()
     data.killCount = reader.readArray(reader.readInt16(), () => reader.readInt32())
+    data.claimableBanners = world.version >= 289 ? reader.readArray(reader.readInt16(), () => reader.readUInt16()) : []
     data.fastForwardTimeToDawn = reader.readBoolean()
     data.downedFishron = reader.readBoolean()
     data.downedMartians = reader.readBoolean()
@@ -359,6 +375,53 @@ export default class HeaderIO implements Section.IODefinition<HeaderData> {
     data.fastForwardTimeToDusk = isV144 && reader.readBoolean()
     data.moondialCooldown = Number(isV144 && reader.readUInt8())
 
+    if (world.version >= 287) {
+      data.forceHalloweenForever = reader.readBoolean()
+      data.forceXMasForever = reader.readBoolean()
+    } else {
+      data.forceHalloweenForever = false
+      data.forceXMasForever = false
+    }
+
+    if (world.version >= 288) {
+      data.vampireSeed = reader.readBoolean()
+    }
+
+    if (world.version >= 296) {
+      data.infectedSeed = reader.readBoolean()
+    }
+
+    if (world.version >= 291) {
+      data.tempMeteorShowerCount = reader.readInt32()
+      data.tempCoinRain = reader.readInt32()
+    } else {
+      data.tempMeteorShowerCount = 0
+      data.tempCoinRain = 0
+    }
+
+    if (world.version >= 297) {
+      data.teamBasedSpawnsSeed = reader.readBoolean()
+      const teamSpawnCount = reader.readUInt8()
+      data.teamSpawns = reader.readArray(teamSpawnCount, () => ({
+        x: reader.readInt16(),
+        y: reader.readInt16(),
+      }))
+    } else {
+      data.teamBasedSpawnsSeed = false
+      data.teamSpawns = []
+    }
+
+    data.dualDungeonsSeed = world.version >= 304 && reader.readBoolean()
+
+    if (world.version >= 299 && world.version < 313) {
+      reader.skipBytes(4) // deprecated uint32
+    }
+    if (world.version >= 299) {
+      data.worldManifestData = reader.readString()
+    } else {
+      data.worldManifestData = ''
+    }
+
     return data
   }
 
@@ -399,10 +462,16 @@ export default class HeaderIO implements Section.IODefinition<HeaderData> {
       if (world.version >= 267) {
         saver.saveBoolean(data.zenithWorld)
       }
+      if (world.version >= 302) {
+        saver.saveBoolean(data.skyblockWorld)
+      }
     } else {
       saver.saveBoolean(data.expertMode)
     }
     saver.saveBytes(data.creationTime)
+    if (world.version >= 284) {
+      saver.saveBytes(data.lastPlayed)
+    }
     saver.saveUInt8(data.moonType)
     saver.saveInt32(data.treeX[0])
     saver.saveInt32(data.treeX[1])
@@ -495,6 +564,10 @@ export default class HeaderIO implements Section.IODefinition<HeaderData> {
     saver.saveInt32(data.tempCultistDelay)
     saver.saveInt16(data.killCount.length)
     data.killCount.forEach((e: any) => saver.saveInt32(e))
+    if (world.version >= 289) {
+      saver.saveInt16(data.claimableBanners.length)
+      data.claimableBanners.forEach((e) => saver.saveUInt16(e))
+    }
     saver.saveBoolean(data.fastForwardTimeToDawn)
     saver.saveBoolean(data.downedFishron)
     saver.saveBoolean(data.downedMartians)
@@ -585,6 +658,38 @@ export default class HeaderIO implements Section.IODefinition<HeaderData> {
       saver.saveBoolean(data.unlockedSlimeCopperSpawn)
       saver.saveBoolean(data.fastForwardTimeToDusk)
       saver.saveUInt8(data.moondialCooldown)
+    }
+
+    if (world.version >= 287) {
+      saver.saveBoolean(data.forceHalloweenForever)
+      saver.saveBoolean(data.forceXMasForever)
+    }
+    if (world.version >= 288) {
+      saver.saveBoolean(data.vampireSeed)
+    }
+    if (world.version >= 296) {
+      saver.saveBoolean(data.infectedSeed)
+    }
+    if (world.version >= 291) {
+      saver.saveInt32(data.tempMeteorShowerCount)
+      saver.saveInt32(data.tempCoinRain)
+    }
+    if (world.version >= 297) {
+      saver.saveBoolean(data.teamBasedSpawnsSeed)
+      saver.saveUInt8(data.teamSpawns.length)
+      data.teamSpawns.forEach((spawn) => {
+        saver.saveInt16(spawn.x)
+        saver.saveInt16(spawn.y)
+      })
+    }
+    if (world.version >= 304) {
+      saver.saveBoolean(data.dualDungeonsSeed)
+    }
+    if (world.version >= 299 && world.version < 313) {
+      saver.saveUInt32(0) // deprecated
+    }
+    if (world.version >= 299) {
+      saver.saveString(data.worldManifestData ?? '')
     }
   }
 }

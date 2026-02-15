@@ -47,6 +47,10 @@ export default class NPCsIO implements Section.IODefinition<NPCsData> {
       NPC.variationIndex = reader.readInt32()
     }
 
+    if (world.version >= 315) {
+      NPC.homelessDespawn = reader.readBoolean()
+    }
+
     if (shimmeredNPCIds.includes(NPC.id)) {
       NPC.shimmered = true
     }
@@ -65,11 +69,13 @@ export default class NPCsIO implements Section.IODefinition<NPCsData> {
   }
 
   public save(saver: BinarySaver, data: NPCsData, world: WorldProperties): void {
-    saver.saveArray(
-      data.townNPCs.filter((NPC) => NPC.shimmered),
-      (length) => saver.saveInt32(length),
-      (e) => saver.saveInt32(e.id),
-    )
+    if (world.version > 268) {
+      saver.saveArray(
+        data.townNPCs.filter((NPC) => NPC.shimmered),
+        (length) => saver.saveInt32(length),
+        (e) => saver.saveInt32(e.id),
+      )
+    }
 
     data.townNPCs.forEach((NPC) => {
       saver.saveBoolean(true)
@@ -88,6 +94,10 @@ export default class NPCsIO implements Section.IODefinition<NPCsData> {
         } else {
           saver.saveUInt8(1)
         }
+      }
+
+      if (world.version >= 315) {
+        saver.saveBoolean(NPC.homelessDespawn ?? false)
       }
     })
     saver.saveBoolean(false)

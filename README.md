@@ -9,7 +9,7 @@
 
 Terraria world file parser written in typescript
 
-\- supports maps from 1.3.5.3 to 1.4.4.9
+\- supports maps from 1.3.5.3 to 1.4.5.5
 
 Feel free to contribute 🌳
 
