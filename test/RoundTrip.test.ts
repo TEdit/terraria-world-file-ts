@@ -1,9 +1,44 @@
+import { existsSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, test } from 'vitest'
 import { fileLoader } from '../src/platform/node'
 import { FileReader, FileSaver } from '../src'
 
-const worldFilesDir = join(import.meta.dirname, 'WorldFiles')
+const testDir = import.meta.dirname
+const worldFilesDir = join(testDir, 'WorldFiles')
+
+function parseVersion(filename: string): number[] | null {
+  const match = filename.match(/^v(\d+(?:\.\d+)*)/)
+  if (!match) return null
+  return match[1].split('.').map(Number)
+}
+
+function versionAtLeast(ver: number[], min: number[]): boolean {
+  for (let i = 0; i < min.length; i++) {
+    const v = ver[i] ?? 0
+    if (v > min[i]) return true
+    if (v < min[i]) return false
+  }
+  return true
+}
+
+function discoverWorldFiles(dir: string, minVersion?: number[]): string[] {
+  if (!existsSync(dir)) return []
+  return readdirSync(dir)
+    .filter((f) => f.endsWith('.wld'))
+    .filter((f) => {
+      if (!minVersion) return true
+      const ver = parseVersion(f)
+      return ver != null && versionAtLeast(ver, minVersion)
+    })
+    .sort()
+    .map((f) => join(dir, f))
+}
+
+// WorldFiles contains versioned files; filter to supported versions (>= 1.3.5.3)
+const rootWorlds = discoverWorldFiles(testDir)
+const subDirWorlds = discoverWorldFiles(worldFilesDir, [1, 3, 5, 3])
+const allWorlds = [...rootWorlds, ...subDirWorlds]
 
 async function bytePerfectRoundTrip(filePath: string) {
   const inputBuffer = await fileLoader(filePath)
@@ -88,33 +123,22 @@ async function dataEqualRoundTrip(filePath: string) {
   expect(reloaded.footer.signoff3).toBe(original.footer.signoff3)
 }
 
-describe('Round-trip: backward compat (pre-1.4.5)', () => {
-  test('test.wld byte-perfect', { timeout: 30_000 }, async () => {
-    await bytePerfectRoundTrip(join(import.meta.dirname, 'test.wld'))
-  })
-
-  test('test.wld data-equal', { timeout: 30_000 }, async () => {
-    await dataEqualRoundTrip(join(import.meta.dirname, 'test.wld'))
-  })
+describe.skipIf(allWorlds.length === 0)('Round-trip: byte-perfect', () => {
+  test.for(allWorlds.map((f) => [f.split(/[\\/]/).pop()!, f]))(
+    '%s',
+    { timeout: 60_000 },
+    async ([_name, filePath]) => {
+      await bytePerfectRoundTrip(filePath)
+    },
+  )
 })
 
-describe('Round-trip: v1.4.5 worlds', () => {
-  test('v1.4.5.0.wld byte-perfect', { timeout: 60_000 }, async () => {
-    await bytePerfectRoundTrip(join(worldFilesDir, 'v1.4.5.0.wld'))
-  })
-
-  test('v1.4.5.5.wld byte-perfect', { timeout: 60_000 }, async () => {
-    await bytePerfectRoundTrip(join(worldFilesDir, 'v1.4.5.5.wld'))
-  })
-
-  test('v1.4.5.0.wld data-equal', { timeout: 60_000 }, async () => {
-    await dataEqualRoundTrip(join(worldFilesDir, 'v1.4.5.0.wld'))
-  })
-
-  test('v1.4.5.5.wld data-equal', { timeout: 60_000 }, async () => {
-    await dataEqualRoundTrip(join(worldFilesDir, 'v1.4.5.5.wld'))
-  })
+describe.skipIf(allWorlds.length === 0)('Round-trip: data-equal', () => {
+  test.for(allWorlds.map((f) => [f.split(/[\\/]/).pop()!, f]))(
+    '%s',
+    { timeout: 60_000 },
+    async ([_name, filePath]) => {
+      await dataEqualRoundTrip(filePath)
+    },
+  )
 })
-
-// Full suite of all supported world files (v1.3.5.3+) is tested via:
-//   npx tsx test/run-all-worlds.ts

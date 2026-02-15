@@ -1,4 +1,4 @@
-import { readdirSync } from 'node:fs'
+import { existsSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileLoader } from '../src/platform/node'
 import { FileReader, FileSaver } from '../src'
@@ -18,6 +18,11 @@ function versionAtLeast(ver: number[], min: number[]): boolean {
     if (v < min[i]) return false
   }
   return true
+}
+
+if (!existsSync(worldFilesDir)) {
+  console.log('No WorldFiles directory found, skipping.')
+  process.exit(0)
 }
 
 const supportedWorldFiles = readdirSync(worldFilesDir)

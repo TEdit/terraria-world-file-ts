@@ -1,15 +1,19 @@
+import { existsSync, readdirSync } from 'node:fs'
+import { join } from 'node:path'
 import { describe, expect, test } from 'vitest'
 import { fileLoader } from '../src/platform/node'
 
-const testFilePath = import.meta.dirname + '/test.wld'
+const testDir = import.meta.dirname
+const worldFiles = readdirSync(testDir).filter((f) => f.endsWith('.wld'))
+const testFilePath = worldFiles.length > 0 ? join(testDir, worldFiles[0]) : null
 
 describe.concurrent('Terraria World File platform specific functions', () => {
-  test('Node file loader', () => {
-    expect(fileLoader(testFilePath)).toBeInstanceOf(Promise)
+  test.skipIf(!testFilePath)('Node file loader', () => {
+    expect(fileLoader(testFilePath!)).toBeInstanceOf(Promise)
   })
 
-  test('Node file loader revolves', async () => {
-    await expect(fileLoader(testFilePath)).resolves.toBeInstanceOf(ArrayBuffer)
+  test.skipIf(!testFilePath)('Node file loader resolves', async () => {
+    await expect(fileLoader(testFilePath!)).resolves.toBeInstanceOf(ArrayBuffer)
   })
 
   test('Node file loader fails', async () => {

@@ -1,8 +1,10 @@
+import { existsSync } from 'node:fs'
 import { describe, expect, test } from 'vitest'
 import { fileLoader } from '../src/platform/node'
 import { FileReader, Liquid, Slope, GameMode } from '../src'
 
 const testFilePath = import.meta.dirname + '/test.wld'
+const hasTestFile = existsSync(testFilePath)
 
 const fileReaderTest = test.extend<{ reader: FileReader }>({
   reader: async ({}, use) => {
@@ -10,7 +12,7 @@ const fileReaderTest = test.extend<{ reader: FileReader }>({
   },
 })
 
-describe.concurrent('File reader', () => {
+describe.skipIf(!hasTestFile).concurrent('File reader', () => {
   test('Node buffer loading', async () => {
     const buffer = await fileLoader(testFilePath)
     await expect(fileLoader(testFilePath)).resolves.toBeInstanceOf(ArrayBuffer)
